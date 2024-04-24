@@ -1,6 +1,6 @@
-drop database if exists TallerCoches_DGM;
-create database if not exists TallerCoches_DGM;
-use TallerCoches_DGM;
+DROP DATABASE IF EXISTS tallercoches_dgm;
+CREATE DATABASE tallercoches_dgm;
+USE tallercoches_dgm;
 
 create table clientes (
     id_cliente int auto_increment primary key,
@@ -27,7 +27,7 @@ create table empleados (
     apellido varchar(100),
     telefono varchar(20),
     correo_electronico varchar(100),
-    cargo varchar(100)
+    cargo enum('mecanico raso', 'mecanico superior', 'tester')
 );
 
 create table reparaciones (
@@ -36,7 +36,8 @@ create table reparaciones (
     id_coche int,
     id_empleado int,
     descripcion text,
-    costo decimal(10, 2),
+    importe_total decimal(10, 2),
+    plazo_pagos enum('contado', 'mensual', 'trimestral', 'cuatrimestral', 'semestral', 'anual'),
     foreign key (id_coche) references coches(id_coche),
     foreign key (id_empleado) references empleados(id_empleado)
 );
@@ -57,15 +58,18 @@ create table reparaciones_tipos_reparaciones (
     primary key (id_reparacion, id_tipo_reparacion)
 );
 
-CREATE TABLE Pago (
-    id_pago INT AUTO_INCREMENT PRIMARY KEY,
-    id_cliente INT,
-    id_reparacion INT,
-    cantidad_pagada DECIMAL(10, 2),
-    fecha_pago DATE,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
-    FOREIGN KEY (id_reparacion) REFERENCES reparaciones(id_reparacion)
+create table pago (
+    id_pago int auto_increment primary key,
+    id_cliente int,
+    id_reparacion int,
+    importe_pago decimal(10, 2),
+    fecha_pago date,
+    estado_pago_total enum('pagado', 'pendiente'),
+    foreign key (id_cliente) references clientes(id_cliente),
+    foreign key (id_reparacion) references reparaciones(id_reparacion)
 );
+
+
 
 
 
