@@ -68,8 +68,3 @@ create table pago (
     foreign key (id_cliente) references clientes(id_cliente),
     foreign key (id_reparacion) references reparaciones(id_reparacion)
 );
-
-
-
-
-
