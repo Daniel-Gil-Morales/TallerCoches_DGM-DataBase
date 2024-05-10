@@ -1,5 +1,5 @@
-use tallercoches_dgm:
 
+use tallercoches_dgm:
 
 -- CONSULTAS --------------------------------------------------------------------------------------------------------------
 
@@ -15,15 +15,18 @@ inner join coches co on c.id_cliente = co.id_cliente;
 select r.id_reparacion, r.fecha, r.descripcion, e.nombre
 from reparaciones r
 inner join empleados e on r.id_empleado = e.id_empleado
-where e.nombre = 'nombre del empleado';
+where e.nombre = 'Lew';
 
 
--- 3. Cantidad total pagada por cada cliente:
+-- 3. Obtener un reporte detallado que muestra el nombre de los clientes, la marca y modelo de los coches que poseen, las fechas de las reparaciones realizadas, 
+--    los tipos de reparaciones efectuadas y las observaciones asociadas a cada reparación.
 
-select c.nombre, c.apellido, sum(p.importe_pago)
-from clientes c
-left join pago p on c.id_cliente = p.id_cliente
-group by c.id_cliente;
+select clientes.nombre as nombre_cliente, coches.marca, coches.modelo, reparaciones.fecha as fecha_reparacion, tipos_reparaciones.nombre as tipo_reparacion, reparaciones_tipos_reparaciones.observaciones
+from clientes
+inner join coches on clientes.id_cliente = coches.id_cliente
+inner join reparaciones on coches.id_coche = reparaciones.id_coche
+inner join reparaciones_tipos_reparaciones on reparaciones.id_reparacion = reparaciones_tipos_reparaciones.id_reparacion
+inner join tipos_reparaciones on reparaciones_tipos_reparaciones.id_tipo_reparacion = tipos_reparaciones.id_tipo_reparacion;
 
 
 -- 4. Reparaciones y tipos de reparaciones asociadas:
@@ -42,13 +45,16 @@ inner join reparaciones r on e.id_empleado = r.id_empleado
 group by e.id_empleado;
 
 
--- 6. Clientes que han realizado reparaciones mensuales:
+-- 6. informe detallado que presenta el nombre de los clientes, junto con la información de los coches que poseen, incluyendo marca y modelo. 
 
-select distinct c.nombre, c.apellido
-from clientes c
-inner join coches co on c.id_cliente = co.id_cliente
-inner join reparaciones r on co.id_coche = r.id_coche
-where r.plazo_pagos = 'mensual';
+select clientes.nombre as nombre_cliente, coches.marca, coches.modelo, reparaciones.fecha as fecha_reparacion, tipos_reparaciones.nombre as tipo_reparacion, reparaciones_tipos_reparaciones.observaciones, pago.importe_pago, pago.fecha_pago
+from clientes
+inner join coches on clientes.id_cliente = coches.id_cliente
+inner join reparaciones on coches.id_coche = reparaciones.id_coche
+inner join reparaciones_tipos_reparaciones on reparaciones.id_reparacion = reparaciones_tipos_reparaciones.id_reparacion
+inner join tipos_reparaciones on reparaciones_tipos_reparaciones.id_tipo_reparacion = tipos_reparaciones.id_tipo_reparacion
+left join pago on reparaciones.id_reparacion = pago.id_reparacion;
+
 
 
 
