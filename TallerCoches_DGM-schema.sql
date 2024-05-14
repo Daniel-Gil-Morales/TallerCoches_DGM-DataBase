@@ -6,8 +6,8 @@ create table clientes (
     id_cliente int auto_increment primary key,
     nombre varchar(100),
     apellido varchar(100),
-    telefono varchar(20),
-    correo_electronico varchar(100),
+    telefono varchar(20) unique,
+    correo_electronico varchar(100) unique,
     direccion varchar(255)
 );
 
@@ -25,8 +25,8 @@ create table empleados (
     id_empleado int auto_increment primary key,
     nombre varchar(100),
     apellido varchar(100),
-    telefono varchar(20),
-    correo_electronico varchar(100),
+    telefono varchar(20) unique,
+    correo_electronico varchar(100) unique,
     cargo enum('mecanico raso', 'mecanico superior', 'tester')
 );
 
