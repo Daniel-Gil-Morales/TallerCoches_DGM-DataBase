@@ -1,0 +1,1001 @@
+id_reparacion,fecha,id_coche,id_empleado,descripcion,importe_total,pago_plazos
+1,2023-07-15,1,1,Anomalies of dental arch relationship,"3526,14",cuatrimestral
+2,2023-11-19,2,2,"Injury of acoustic nerve, right side","172,15",contado
+3,2023-08-11,3,3,"Abscess of bursa, left shoulder","2308,36",mensual
+4,2023-12-02,4,4,"Unsp fracture of T5-T6 vertebra, subs for fx w nonunion","4159,73",anual
+5,2024-02-15,5,5,"Displ oblique fx shaft of unsp ulna, 7thE","4608,75",semestral
+6,2023-08-06,6,6,Puncture wound with foreign body of right wrist,"4613,90",cuatrimestral
+7,2023-10-13,7,7,"Disp fx of acromial process, unsp shoulder, init for opn fx","3934,83",mensual
+8,2023-09-19,8,8,Other impaction of intestine,"3851,49",mensual
+9,2024-01-22,9,9,"Oth injury of femoral artery, right leg, subs encntr","501,67",contado
+10,2024-05-03,10,10,"Poisoning by propionic acid derivatives, accidental, subs","1403,83",semestral
+11,2023-08-19,11,11,"Major laceration of body of pancreas, subsequent encounter","4573,08",cuatrimestral
+12,2024-02-19,12,12,"Oth traum displ spondylolysis of 3rd cervcal vert, 7thG","791,32",mensual
+13,2023-07-12,13,13,"Unsp fracture of unsp lum vertebra, subs for fx w nonunion","4748,56",mensual
+14,2024-03-11,14,14,"Other chronic hematogenous osteomyelitis, other site","2566,54",trimestral
+15,2023-10-16,15,15,"Daycare center childcare prov, perp of maltreat and neglect","3267,38",anual
+16,2023-11-12,16,16,"Hodgkin lymphoma, unspecified, intrapelvic lymph nodes","2563,02",contado
+17,2023-06-14,17,17,"Abrasion of breast, left breast, subsequent encounter","426,97",mensual
+18,2024-05-01,18,18,Displaced oblique fracture of shaft of left radius,"679,08",trimestral
+19,2023-05-14,19,19,Unstable burst fracture of unspecified lumbar vertebra,"1617,72",cuatrimestral
+20,2024-03-05,20,20,Esophagostomy infection,"829,23",contado
+21,2023-12-10,21,21,Antidotes and chelating agents,"1860,36",mensual
+22,2023-10-16,22,22,Abnormal results of cardiovascular function studies,"4298,43",trimestral
+23,2023-10-01,23,23,Acute lacrimal canaliculitis of bilateral lacrimal passages,"328,43",cuatrimestral
+24,2023-09-08,24,24,"Puncture wound with foreign body, unsp thigh, init encntr","4019,15",mensual
+25,2024-03-10,25,25,"Corros unsp degree of unsp mult fngr, not inc thumb, subs","4383,41",semestral
+26,2023-11-23,26,26,"Encntr for oth sp exam w/o complaint, suspected or reprtd dx","2262,52",mensual
+27,2023-05-13,27,27,"Traum rupt of unsp ligmt of l mid finger at MCP/IP jt, init","1141,14",mensual
+28,2024-02-02,28,28,Other peripheral vertigo,"268,45",contado
+29,2023-06-09,29,29,Orthopedic devices associated with adverse incidents,"174,14",contado
+30,2023-12-17,30,30,"Oth injury of posterior tibial artery, left leg, sequela","4769,30",trimestral
+31,2024-02-15,31,31,"Major osseous defect, left humerus","3680,15",anual
+32,2024-01-04,32,32,Postproc hemorrhage of a GU sys org following a procedure,"4804,02",mensual
+33,2023-09-25,33,33,"Unsp injury of great saphenous at hip and thi lev, unsp leg","3369,58",cuatrimestral
+34,2024-03-01,34,34,"Fall on or from other playground equipment, subs encntr","4671,38",contado
+35,2023-06-23,35,35,Neonatal cutaneous hemorrhage,"4896,28",mensual
+36,2023-08-29,36,36,"Gastric contents in pharynx causing oth injury, subs encntr","1373,63",cuatrimestral
+37,2024-02-10,37,37,"Nondisp fx of 4th metatarsal bone, l ft, 7thD","2824,89",anual
+38,2023-10-22,38,38,"Corrosion of second degree of unspecified elbow, subs encntr","3029,09",mensual
+39,2023-11-04,39,39,Abrasion of wrist,"4361,98",semestral
+40,2023-12-09,40,40,"Oth injury of femoral artery, left leg, init encntr","1513,96",contado
+41,2024-02-15,41,41,Garden or yard of mobile home as place,"4674,31",mensual
+42,2024-04-15,42,42,"Tox eff of fluorine gas and hydrogen fluoride, slf-hrm, init","4262,43",cuatrimestral
+43,2023-08-02,43,43,"Nondisp comminuted fx left patella, init for opn fx type I/2","1428,04",semestral
+44,2024-04-12,44,44,Obst due to fb acc left in body following unsp procedure,"538,64",anual
+45,2023-05-26,45,45,"Maternal care for (suspected) damage to fetus by drugs, oth","3404,20",cuatrimestral
+46,2024-02-20,46,46,Alveolar maxillary hypoplasia,"3913,72",contado
+47,2024-03-24,47,47,"Burn of third degree of unspecified palm, initial encounter","2268,66",trimestral
+48,2023-08-29,48,48,"Migraine w/o aura, not intractable, w/o status migrainosus","3550,75",mensual
+49,2024-02-15,49,49,"Blister (nonthermal) of right elbow, sequela","2123,04",trimestral
+50,2023-07-02,50,50,Corrosion of first degree of right wrist,"1169,39",anual
+51,2024-01-24,51,51,Salter-Harris Type II physeal fracture of calcaneus,"103,78",contado
+52,2023-05-29,52,52,Malignant neoplasm of gum,"1102,30",cuatrimestral
+53,2023-09-19,53,53,Niemann-Pick disease,"4479,14",anual
+54,2023-06-23,54,54,"Displ oblique fx shaft of unsp ulna, 7thN","2701,22",anual
+55,2023-11-15,55,55,"Open bite, left elbow, sequela","4044,67",cuatrimestral
+56,2023-10-20,56,56,Calcific tendinitis of unspecified shoulder,"2276,27",trimestral
+57,2023-05-13,57,57,"Abrasion of right hand, initial encounter","2161,77",mensual
+58,2024-01-22,58,58,"Nondisp avulsion fx left ilium, subs for fx w routn heal","688,33",contado
+59,2023-09-20,59,59,"Occup of special industrial vehicle injured nontraf, subs","223,91",trimestral
+60,2024-03-01,60,60,Other complication of respirator [ventilator],"4428,01",anual
+61,2024-01-06,61,61,Athscl type of bypass graft(s) of extremity w ulceration,"3053,65",cuatrimestral
+62,2023-12-21,62,62,"Other specified hearing loss, left ear","3425,93",semestral
+63,2023-10-12,63,63,"Posterior subcapsular polar age-related cataract, left eye","4250,76",mensual
+64,2023-09-22,64,64,"Foreign body in genitourinary tract, part unspecified","829,63",anual
+65,2023-11-08,65,65,Unspecified internal derangement of left knee,"2921,76",anual
+66,2023-05-20,66,66,"Hordeolum externum left eye, unspecified eyelid","365,34",contado
+67,2024-03-23,67,67,Deformity of bilateral orbits due to trauma or surgery,"3208,75",trimestral
+68,2023-11-04,68,68,Other sprain of elbow,"1665,39",semestral
+69,2023-06-20,69,69,Abscess of epididymis or testis,"4996,76",contado
+70,2023-07-02,70,70,"Solitary bone cyst, left shoulder","311,68",cuatrimestral
+71,2023-06-09,71,71,Assault by human bite,"1444,54",semestral
+72,2023-06-27,72,72,"Toxic effect of unsp spider venom, undetermined, sequela","4219,97",contado
+73,2023-12-21,73,73,Personal history of malignant neoplasm of stomach,"693,82",cuatrimestral
+74,2024-05-04,74,74,"Inj extn musc/fasc/tend r mid finger at wrs/hnd lv, sequela","3978,44",cuatrimestral
+75,2024-04-14,75,75,"Pressure ulcer of right buttock, stage 2","1287,02",mensual
+76,2024-04-30,76,76,"Unsp physl fx low end rad, l arm, subs for fx w routn heal","1582,71",contado
+77,2023-10-22,77,77,"Other rupture of muscle (nontraumatic), shoulder","566,96",semestral
+78,2023-10-21,78,78,Corrosion of unsp deg mult sites of unsp wrist and hand,"2985,51",semestral
+79,2023-11-20,79,79,"Inj muscle, fascia and tendon of triceps, right arm, subs","399,52",trimestral
+80,2024-02-03,80,80,"Complete oblique atyp femoral fracture, unsp leg, sequela","3462,33",cuatrimestral
+81,2023-06-17,81,81,"Fistula, right hand","1984,15",trimestral
+82,2024-03-30,82,82,"Injury of l int carotid, intcr w LOC of 31-59 min, sequela","3914,31",mensual
+83,2023-08-02,83,83,"Crushed betw sailbt and oth wtrcrft/obj due to clsn, sequela","4637,00",semestral
+84,2023-06-17,84,84,Infective myositis,"4190,44",cuatrimestral
+85,2024-04-29,85,85,Sprain of foot,"2290,04",anual
+86,2023-08-21,86,86,"Unsp fx the lower end left rad, init for opn fx type 3A/B/C","3754,95",anual
+87,2023-11-04,87,87,"Inj less saphenous at lower leg level, right leg, subs","4896,80",contado
+88,2023-11-09,88,88,"Burn of first degree of female genital region, init encntr","3100,03",anual
+89,2024-02-07,89,89,Traumatic amputation at elbow level,"2892,09",mensual
+90,2023-06-28,90,90,Athscl autologous vein bypass of the left leg w ulceration,"195,65",mensual
+91,2023-09-15,91,91,"Toxic effect of petroleum products, assault, sequela","2985,79",cuatrimestral
+92,2023-05-15,92,92,"Other secondary chronic gout, right elbow, without tophus","2698,03",anual
+93,2023-06-29,93,93,"Self-harm by jumping or lying in front of mtr veh, init","2543,70",anual
+94,2023-07-23,94,94,"Nondisp fx of base of 2nd MC bone. l hand, 7thG","3912,37",mensual
+95,2023-10-11,95,95,"Occ of 3-whl mv injured in trnsp acc w miltry vehicle, subs","3565,20",trimestral
+96,2023-09-27,96,96,Congenital methemoglobinemia,"3118,72",anual
+97,2024-03-23,97,97,"Unsp nondisp fx of fourth cervical vertebra, init","2514,78",anual
+98,2023-06-22,98,98,"Nondisp fx of prox phalanx of unsp great toe, 7thG","2237,15",semestral
+99,2023-05-28,99,99,"Toxic eff of corrosv acids and acid-like substnc, acc, sqla","4170,86",cuatrimestral
+100,2023-06-09,100,100,"Lacerat msl/tnd lng flxr msl toe at ank/ft lev,unsp ft, init","1145,63",contado
+101,2023-11-04,101,101,"Rheumatoid arthritis without rheumatoid factor, elbow","99,58",mensual
+102,2023-07-07,102,102,"Protozoal diseases complicating pregnancy, unsp trimester","2115,41",cuatrimestral
+103,2023-12-18,103,103,"Other specified bursopathies, unspecified elbow","1346,91",trimestral
+104,2024-01-29,104,104,"Insect bite (nonvenomous) of anus, subsequent encounter","1354,63",trimestral
+105,2024-04-17,105,105,Terrorism involving firearms,"715,66",contado
+106,2024-01-27,106,106,Displacement of implnt elec nstim of peripheral nerve lead,"3404,40",trimestral
+107,2023-07-16,107,107,"Infct of amniotic sac and membrns, unsp, first tri, unsp","4064,11",semestral
+108,2024-01-29,108,108,"Idiopathic chronic gout, right hand, with tophus (tophi)","1893,80",semestral
+109,2023-07-16,109,109,"Laceration of deep palmar arch of left hand, subs encntr","1658,88",mensual
+110,2024-02-26,110,110,"Adverse effect of antirheumatics, NEC, subs","2028,90",mensual
+111,2024-01-01,111,111,Sprain of calcaneofibular ligament of unspecified ankle,"3588,66",contado
+112,2023-08-01,112,112,"Disp fx of med phalanx of right less toe(s), init for opn fx","3268,89",anual
+113,2024-04-12,113,113,Athscl nonbiological bypass of extremity w ulceration,"154,27",anual
+114,2024-01-25,114,114,Type 1 diabetes mellitus with other diabetic arthropathy,"720,47",semestral
+115,2024-02-15,115,115,Prsn brd/alit pedl cyc injured in collision w statnry object,"4099,28",semestral
+116,2024-02-20,116,116,"Other injuries of left eye and orbit, sequela","661,17",semestral
+117,2024-03-30,117,117,Unspecified sprain of left shoulder joint,"3398,13",semestral
+118,2024-02-15,118,118,"Preglaucoma, unspecified, left eye","433,79",anual
+119,2023-08-10,119,119,"Unsp physl fx lower end of r femur, subs for fx w routn heal","2499,56",cuatrimestral
+120,2023-10-09,120,120,"Unsp fracture of left forearm, subs for clos fx w delay heal","255,23",semestral
+121,2023-11-26,121,121,"Pneumococcal arthritis, knee","1919,49",cuatrimestral
+122,2023-08-08,122,122,Abrasion of scrotum and testes,"2804,77",semestral
+123,2023-09-25,123,123,Unspecified open wound of right breast,"1104,20",semestral
+124,2024-04-07,124,124,"Ghost vessels (corneal), right eye","1816,46",contado
+125,2024-04-22,125,125,"Dislocation of proximal interphaln joint of l idx fngr, init","3525,63",cuatrimestral
+126,2023-07-13,126,126,"Displ spiral fx shaft of r femr, 7thR","2592,18",contado
+127,2023-10-02,127,127,Cutaneous autosensitization,"1608,07",trimestral
+128,2024-01-20,128,128,"Laceration of musc/tend at lower leg level, unsp leg, init","1016,80",semestral
+129,2023-09-13,129,129,"Localized swelling, mass and lump, upper limb, bilateral","4768,42",semestral
+130,2023-07-31,130,130,"Unsp dislocation of unspecified shoulder joint, subs encntr","2189,48",anual
+131,2023-12-30,131,131,"Underdosing of antiallergic and antiemetic drugs, sequela","1213,35",cuatrimestral
+132,2023-06-04,132,132,"Nondisp fx of greater tuberosity of unsp humer, 7thP","3859,11",mensual
+133,2023-10-16,133,133,"Person injured wh brd/alit from oth sp off-rd mv, subs","4716,06",cuatrimestral
+134,2023-11-07,134,134,Osseous and sublux stenosis of intvrt foramina of up extrem,"1488,86",trimestral
+135,2023-11-23,135,135,Traumatic compartment syndrome of right upper extremity,"347,48",anual
+136,2023-09-03,136,136,"Pasngr in hv veh injured in clsn w oth mv in traf, sequela","3891,41",contado
+137,2024-03-29,137,137,"Unsp physl fx lower end unsp tibia, subs for fx w malunion","1857,11",mensual
+138,2023-10-29,138,138,"Aspirat pneumonitis due to anesth during preg, second tri","1364,16",semestral
+139,2023-08-02,139,139,Athscl nonbiological bypass of the extremities w gangrene,"4758,34",mensual
+140,2024-01-21,140,140,Dislocation and sprain of joints and ligaments of knee,"2805,25",semestral
+141,2023-10-04,141,141,"Myopia, right eye","188,07",trimestral
+142,2024-02-15,142,142,Benign neoplasm of penis,"3615,02",trimestral
+143,2024-03-26,143,143,"Traum rupt of palmar ligmt of l rng fngr at MCP/IP jt, init","3337,58",mensual
+144,2024-03-24,144,144,"Disp fx of acromial process, l shldr, subs for fx w nonunion","1642,15",semestral
+145,2023-11-07,145,145,"Displ spiral fx shaft of ulna, l arm, 7thJ","2996,84",contado
+146,2023-08-30,146,146,Cicatricial alopecia [scarring hair loss],"1812,56",cuatrimestral
+147,2023-11-08,147,147,"Partial traumatic amputation of one unsp lesser toe, subs","1282,71",mensual
+148,2024-03-22,148,148,"Oth disrd of bone density and structure, left lower leg","1153,56",trimestral
+149,2023-07-20,149,149,Fracture of proximal phalanx of thumb,"1440,17",contado
+150,2024-01-01,150,150,"Occup of bus injured in clsn w statnry object in traf, init","4303,27",cuatrimestral
+151,2023-09-10,151,151,"Other specified injury of left carotid artery, sequela","2908,76",anual
+152,2024-05-08,152,152,Heart transplant rejection,"694,20",semestral
+153,2023-12-16,153,153,"Sltr-haris Type III physeal fx left metatarsal, sequela","3905,76",trimestral
+154,2023-05-15,154,154,"Oth fx first MC bone, unsp hand, subs for fx w delay heal","1010,86",contado
+155,2024-04-15,155,155,"Person outsd hv veh inj in nonclsn trnsp acc in traf, sqla","1668,34",trimestral
+156,2023-10-18,156,156,"Poisn by unsp agents aff the cardiovasc sys, assault, subs","433,82",anual
+157,2023-07-16,157,157,"Lead-induced chronic gout, unspecified wrist","843,06",contado
+158,2023-10-06,158,158,"Driver of bus injured in collision w hv veh nontraf, sequela","937,85",mensual
+159,2023-07-11,159,159,Unspecified subluxation of left toe(s),"1750,15",anual
+160,2023-08-13,160,160,"Hit by object from burning bldg in uncontrolled fire, subs","299,07",contado
+161,2023-11-27,161,161,"Oth disrd involving the immune mechanism, NEC","4683,96",cuatrimestral
+162,2023-06-03,162,162,"Gout due to renal impairment, unspecified hip","141,67",semestral
+163,2023-09-25,163,163,"Nondisp fx of ant column of r acetab, 7thG","3915,50",contado
+164,2023-08-04,164,164,"Other secondary chronic gout, multiple sites, with tophus","594,70",semestral
+165,2023-06-22,165,165,"Unsp fx the low end r rad, 7thJ","1480,44",mensual
+166,2023-09-27,166,166,"Lacerat blood vessels at lower leg level, unsp leg, subs","3110,40",trimestral
+167,2023-12-01,167,167,"Toxic effect of unsp organic solvent, self-harm, sequela","2516,40",trimestral
+168,2024-01-21,168,168,Encntr for oth plast/recnst surg fol med proc or heal injury,"2979,40",anual
+169,2023-07-10,169,169,"Sltr-haris Type IV physeal fx upper end of left tibia, init","3924,52",anual
+170,2023-12-19,170,170,"External constriction, unspecified thigh, subs encntr","31,47",mensual
+171,2023-12-07,171,171,Stricture of artery,"2629,41",mensual
+172,2023-05-21,172,172,"Toxic effect of sulfur dioxide, undetermined","326,33",semestral
+173,2024-03-14,173,173,"Allergic contact dermatitis due to plants, except food","1131,61",semestral
+174,2023-08-25,174,174,"Nodular lymphocyte predominant Hodgkin lymphoma, spleen","4303,75",anual
+175,2023-09-20,175,175,"Pnctr w/o fb of abd wall, r low q w penet perit cav, init","444,02",anual
+176,2023-10-04,176,176,"Toxic effect of venom of snake, accidental (unintentional)","2034,52",contado
+177,2024-01-31,177,177,"Toxic effect of hydrogen sulfide, accidental, subs","3759,12",mensual
+178,2023-07-12,178,178,"Burn of third degree of right thumb (nail), subs encntr","3101,50",contado
+179,2023-10-13,179,179,"Athscl native arteries of extrm w intrmt claud, right leg","1830,81",trimestral
+180,2023-09-18,180,180,Pseudosarcomatous fibromatosis,"2603,23",contado
+181,2024-02-29,181,181,"Oth physeal fx lower end of r fibula, subs for fx w malunion","2092,22",anual
+182,2023-07-11,182,182,"Nondisp spiral fx shaft of l fibula, 7thJ","4439,19",anual
+183,2023-07-03,183,183,"Oth fx upper end of right tibia, subs for clos fx w malunion","4809,64",contado
+184,2023-11-25,184,184,"Poisoning by dental drugs, topically applied, undetermined","29,95",cuatrimestral
+185,2024-01-26,185,185,Factitial dermatitis,"2810,33",cuatrimestral
+186,2024-01-23,186,186,"Other injury due to other accident to sailboat, subs encntr","2229,26",contado
+187,2024-02-21,187,187,"Jump/div into swim pool strk wall causing oth injury, subs","530,62",cuatrimestral
+188,2023-12-25,188,188,"Contusion of descending [left] colon, sequela","2554,01",contado
+189,2023-06-26,189,189,Minor laceration of femoral artery,"4492,04",contado
+190,2023-07-28,190,190,"Oth comp specific to multiple gest, second trimester, unsp","4259,93",anual
+191,2023-06-09,191,191,"Zygomatic fracture, left side, init","1475,57",cuatrimestral
+192,2023-10-05,192,192,"Driver of bus injured in collision w oth mv in traf, subs","1232,13",contado
+193,2024-02-02,193,193,"Toxic eff of nitrodrv/aminodrv of benzn/homolog, undet, sqla","2261,06",anual
+194,2024-01-04,194,194,"Nondisp associated transv/post fx right acetabulum, sequela","1153,13",mensual
+195,2023-08-30,195,195,"Unsp pedal cyclist injured pick-up truck, pk-up/van nontraf","3518,69",contado
+196,2024-01-22,196,196,"Displaced oblique fracture of shaft of left tibia, init","4650,70",contado
+197,2024-02-17,197,197,Other specified conduction disorders,"2585,70",mensual
+198,2023-08-25,198,198,"Stable burst fx third thor vert, subs for fx w routn heal","2595,03",cuatrimestral
+199,2023-12-13,199,199,Posterior soft tissue impingement,"824,04",mensual
+200,2024-02-29,200,200,"Breakdown (mechanical) of insulin pump, initial encounter","471,79",contado
+201,2024-01-26,201,201,"Pathological fracture in other disease, left radius","3833,49",semestral
+202,2023-10-30,202,202,"Other disorders of continuity of bone, left radius","3864,21",semestral
+203,2023-08-20,203,203,Unspecified injury of left vertebral artery,"3460,70",cuatrimestral
+204,2023-06-27,204,204,"Fall from, out of or through bridge, sequela","1276,86",mensual
+205,2023-11-11,205,205,"Toxic effect of taipan venom, intentional self-harm","3430,03",contado
+206,2024-02-08,206,206,"Tympanosclerosis, right ear","397,25",anual
+207,2023-05-13,207,207,Eczema herpeticum,"3481,33",mensual
+208,2023-08-05,208,208,"Underdosing of oral contraceptives, sequela","536,88",anual
+209,2024-04-16,209,209,"Struck by sea lion, initial encounter","3660,15",semestral
+210,2024-04-09,210,210,"Galeazzi's fx left rad, subs for opn fx type I/2 w malunion","4173,42",semestral
+211,2023-07-05,211,211,"Unilateral femoral hernia, with obstruction, w/o gangrene","2810,84",contado
+212,2023-06-28,212,212,Scrotal pain,"981,95",contado
+213,2023-09-21,213,213,"Contusion of ovary, bilateral, sequela","3002,61",contado
+214,2024-04-09,214,214,"Minor lacerat great saph at hip and thi lev, unsp leg, sqla","4953,20",semestral
+215,2023-09-13,215,215,"Sltr-haris Type II physeal fx upper end of humerus, left arm","4335,34",semestral
+216,2023-08-12,216,216,"Matern care for disproprtn due to hydrocephalic fetus, fts4","1491,62",semestral
+217,2024-02-17,217,217,"Toxic effect of aflatoxin, accidental (unintentional), init","3849,08",trimestral
+218,2023-05-24,218,218,"Nondisp fx of lateral condyle of l tibia, 7thK","373,50",semestral
+219,2023-10-26,219,219,"Traum hemor cereb, w LOC w death d/t brain injury bf consc","4952,89",trimestral
+220,2023-05-30,220,220,"Pathological fracture, unsp shoulder, init for fx","2807,64",semestral
+221,2024-03-27,221,221,"Caught, crush, jammed, or pinched betw stationry obj, subs","1720,17",semestral
+222,2023-12-27,222,222,"Amblyopia suspect, right eye","4138,25",anual
+223,2023-07-12,223,223,"Bent bone of r rad, subs for opn fx type 3A/B/C w malunion","332,82",trimestral
+224,2023-10-30,224,224,"Car passenger injured in collision w pedl cyc in traf, subs","4856,46",mensual
+225,2024-05-03,225,225,Unspecified infantile and juvenile cataract,"974,91",trimestral
+226,2023-12-17,226,226,Dining room in reform school as place,"2648,98",trimestral
+227,2023-06-10,227,227,Bitten by parrot,"3250,51",cuatrimestral
+228,2024-04-23,228,228,"Sltr-haris Type IV physeal fx phalanx of left toe, 7thD","4473,60",semestral
+229,2023-11-25,229,229,Anterior cord syndrome at C5 level of cervical spinal cord,"3900,84",anual
+230,2023-10-31,230,230,"Oth complication of genitourinary prosth dev/grft, subs","4815,67",anual
+231,2024-02-16,231,231,Rheumatoid polyneurop w rheumatoid arthritis of right ank/ft,"3737,96",contado
+232,2023-12-16,232,232,Cicatricial ectropion of eyelid,"4052,28",trimestral
+233,2023-06-24,233,233,"Circadian rhythm sleep disorder, advanced sleep phase type","226,93",cuatrimestral
+234,2023-05-25,234,234,"Chilblains, initial encounter","4327,28",trimestral
+235,2024-02-15,235,235,"Oth comp of spinal and epidur anesth during preg, first tri","1369,11",contado
+236,2023-07-02,236,236,"Neurofibromatosis, type 1","276,64",trimestral
+237,2023-12-29,237,237,"Burn of 2nd deg mul right fingers (nail), inc thumb, sequela","581,76",anual
+238,2024-03-23,238,238,"Other superficial bite of oral cavity, sequela","1896,56",mensual
+239,2023-06-01,239,239,Corrosion of third degree of unspecified palm,"2089,28",trimestral
+240,2024-03-27,240,240,"Follicular lymphoma grade I, nodes of head, face, and neck","2985,26",contado
+241,2023-09-25,241,241,Occupant of anml-drn vehicle injured in clsn w 2/3-whl mv,"1200,73",trimestral
+242,2023-09-30,242,242,"Abscess of bursa, left shoulder","4959,02",semestral
+243,2024-04-29,243,243,Ventricular tachycardia,"3028,25",contado
+244,2023-12-16,244,244,Dislocation of unsp parts of unspecified shoulder girdle,"4731,53",mensual
+245,2024-03-05,245,245,"Spinal muscular atrophy, unspecified","4427,80",anual
+246,2023-09-22,246,246,"Stress fracture, right fibula, subs for fx w delay heal","1398,36",mensual
+247,2024-03-04,247,247,"Pathological fracture in oth disease, right hand, init","1756,19",trimestral
+248,2023-10-10,248,248,Rapidly progr nephritic syndrome w dense deposit disease,"882,65",anual
+249,2023-07-22,249,249,"Polyhydramnios, third trimester, fetus 4","3456,14",trimestral
+250,2023-12-30,250,250,"Nondisp fx of distal phalanx of left index finger, init","177,54",anual
+251,2023-09-16,251,251,"Breakdown (mechanical) of nephrostomy catheter, sequela","1776,51",cuatrimestral
+252,2023-11-11,252,252,Other cyst of bone,"4129,95",anual
+253,2024-03-01,253,253,"Puncture wound without foreign body of penis, subs encntr","2160,27",contado
+254,2024-03-01,254,254,"Unsp inj unsp musc/fasc/tend at forarm lv, left arm, subs","3332,27",cuatrimestral
+255,2023-10-14,255,255,Unsp injury of flexor musc/fasc/tend thmb at forearm level,"1090,67",anual
+256,2023-08-12,256,256,Exposure to bed fire due to other burning material,"2010,71",semestral
+257,2024-04-25,257,257,"Person outsd 3-whl mv inj in clsn w ped/anml in traf, sqla","1725,10",mensual
+258,2024-01-25,258,258,"Unsp open wound of unspecified part of head, init encntr","3697,21",anual
+259,2023-12-07,259,259,"Toxic effect of mercury and its compounds, accidental","741,54",mensual
+260,2024-01-29,260,260,Driver of 3-whl mv injured in nonclsn trnsp accident in traf,"2984,77",cuatrimestral
+261,2023-10-17,261,261,"Melanocytic nevi of unspecified lower limb, including hip","4997,18",mensual
+262,2024-04-10,262,262,"Disp fx of proximal phalanx of l idx fngr, init for opn fx","3404,53",trimestral
+263,2024-01-08,263,263,"Corrosion of first degree of unsp hand, unsp site, init","2886,16",cuatrimestral
+264,2023-07-14,264,264,Fracture of unspecified phalanx of unspecified thumb,"1028,72",cuatrimestral
+265,2023-07-27,265,265,"Poisoning by digestants, assault, sequela","3606,28",semestral
+266,2024-03-05,266,266,"Toxic effect of venom of hornets, self-harm, init","1413,34",semestral
+267,2023-07-03,267,267,"Malignant carcinoid tumor of the sm int, unsp portion","1363,09",anual
+268,2023-08-02,268,268,"Ped on foot injured in collision w hv veh nontraf, subs","4714,65",contado
+269,2023-05-18,269,269,"Toxic effect of alcohols, accidental, sequela","2661,17",contado
+270,2024-02-17,270,270,Struck by other nonvenomous marine animals,"567,71",anual
+271,2024-02-06,271,271,"Traum rupt of volar plate of r lit fngr at MCP/IP jt, sqla","1936,51",semestral
+272,2023-09-03,272,272,"Ankylosis, right foot","2413,99",anual
+273,2023-08-28,273,273,Oth transitory disorders of carbohydrate metab of newborn,"1055,68",anual
+274,2023-05-26,274,274,"Perf due to fb acc left in body fol kidney dialysis, subs","1743,58",trimestral
+275,2023-09-01,275,275,"Sprain of interphalangeal joint of unsp thumb, sequela","814,98",trimestral
+276,2023-09-17,276,276,"Displ artic fx head of unsp femr, 7thM","3357,54",mensual
+277,2023-07-14,277,277,"Disp fx of neck of right talus, subs for fx w nonunion","4523,87",anual
+278,2024-04-20,278,278,"Toxic effect of mycotoxin food contamnt, undetermined, subs","840,80",anual
+279,2023-12-02,279,279,"Mech compl of internal prosth dev/grft, sequela","1375,70",trimestral
+280,2023-12-31,280,280,Idiopathic aseptic necrosis of left ankle,"4250,15",cuatrimestral
+281,2023-05-27,281,281,"Other juvenile arthritis, right shoulder","50,19",anual
+282,2023-11-06,282,282,"Nondisplaced intartic fracture of unsp calcaneus, sequela","4225,85",trimestral
+283,2024-01-22,283,283,"Displ subtrochnt fx unsp femr, 7thF","3906,03",mensual
+284,2023-10-10,284,284,"Conjunctival xerosis, unspecified, left eye","4503,86",cuatrimestral
+285,2023-10-11,285,285,"Maternal care for abnormality of pelvic organ, unspecified","4784,86",semestral
+286,2023-11-07,286,286,"Puncture wound with foreign body, unspecified knee","3331,88",semestral
+287,2024-01-13,287,287,Injury of right uterine artery,"516,83",trimestral
+288,2023-07-07,288,288,Nonrheumatic mitral (valve) insufficiency,"3136,30",anual
+289,2024-04-03,289,289,"Unspecified sprain of left thumb, initial encounter","2217,09",cuatrimestral
+290,2024-03-08,290,290,Unspecified superficial injury of unspecified lower leg,"560,27",mensual
+291,2023-11-24,291,291,Rheu arthritis w rheu factor of knee w/o org/sys involv,"2510,41",contado
+292,2023-09-20,292,292,Other disorders of orbit,"4213,63",cuatrimestral
+293,2023-11-10,293,293,"Lambert-Eaton syndrome, unspecified","3236,48",trimestral
+294,2023-09-01,294,294,"Rider of nonpowr wtrcrft struck by powered wtrcrft, sequela","3750,32",anual
+295,2024-02-10,295,295,Chronic embolism and thrombosis of left iliac vein,"2828,15",anual
+296,2024-04-08,296,296,"Fracture of other part of scapula, left shoulder","2188,48",anual
+297,2023-08-05,297,297,"Nondisp pilon fx right tibia, init for opn fx type 3A/B/C","3787,28",trimestral
+298,2023-08-22,298,298,"Unsp comp of fb acc left in body fol inject or immuniz, sqla","3019,37",anual
+299,2023-07-31,299,299,"Unsp fx low end l tibia, 7thR","1807,07",contado
+300,2023-06-26,300,300,"Explosion of unspecified explosive materials, init encntr","2333,72",contado
+301,2024-05-02,301,301,"Unsp fx second MC bone, left hand, subs for fx w malunion","2384,37",mensual
+302,2023-12-11,302,302,"Leakage of breast prosthesis and implant, initial encounter","560,29",semestral
+303,2023-09-22,303,303,Tonic pupil,"1900,73",cuatrimestral
+304,2023-08-10,304,304,"Other injury of sigmoid colon, initial encounter","911,91",trimestral
+305,2024-01-09,305,305,Superficial frostbite of unspecified ankle,"4803,77",semestral
+306,2024-03-19,306,306,"Calcific tendinitis, right hand","2808,89",cuatrimestral
+307,2023-09-08,307,307,"Occup of pk-up/van injured in clsn w oth mv nontraf, init","250,13",semestral
+308,2023-11-24,308,308,"Nondisplaced fracture of first metatarsal bone, right foot","586,76",mensual
+309,2023-06-12,309,309,Other specified disorders of penis,"1149,25",contado
+310,2024-05-06,310,310,"Unspecified superficial injury of left elbow, sequela","1871,99",trimestral
+311,2023-10-30,311,311,Unspecified injury of internal jugular vein,"3069,04",mensual
+312,2023-06-01,312,312,"Foreign body in cornea, left eye, subsequent encounter","648,77",semestral
+313,2023-06-15,313,313,"Nondisp fx of neck of r rad, subs for clos fx w delay heal","1320,00",anual
+314,2023-09-06,314,314,"Nondisp fx of 2nd metatarsal bone, unsp ft, 7thG","1141,42",anual
+315,2024-05-06,315,315,"Nondisp fx of 4th metatarsal bone, unsp ft, 7thD","1841,12",anual
+316,2023-09-28,316,316,"Oth fracture of left pubis, subs for fx w delay heal","1156,59",mensual
+317,2024-01-18,317,317,"Contusion of unsp ring finger w/o damage to nail, sequela","4884,26",cuatrimestral
+318,2023-05-31,318,318,"Lacerat unsp blood vessel at lower leg level, right leg","4590,20",anual
+319,2023-05-22,319,319,"Other dislocation of right wrist and hand, sequela","2230,79",mensual
+320,2024-02-06,320,320,"Primary osteoarthritis, shoulder","3365,45",anual
+321,2023-09-29,321,321,"Nondisp fx of acromial pro, l shldr, 7thG","736,15",semestral
+322,2023-09-17,322,322,"Laceration with foreign body of left ear, subs encntr","2357,06",anual
+323,2023-12-27,323,323,"Laceration w fb of left great toe w damage to nail, subs","2084,47",trimestral
+324,2023-07-29,324,324,Nondisplaced transverse fracture of left acetabulum,"3193,29",contado
+325,2024-02-17,325,325,"Oth fx shaft of unsp ulna, init for opn fx type 3A/B/C","4317,46",trimestral
+326,2024-04-08,326,326,"Accidental kick by another person, sequela","4114,88",contado
+327,2023-06-23,327,327,"Drown due to being washed overboard from fishing boat, init","3009,78",cuatrimestral
+328,2023-06-11,328,328,"Displ spiral fx shaft of unsp femr, 7thD","4383,40",mensual
+329,2023-10-02,329,329,"Burn second degree of unsp mult fngr (nail), inc thumb, init","2682,48",anual
+330,2023-05-23,330,330,"Family history of endo, nutritional and metabolic diseases","2771,04",trimestral
+331,2023-09-01,331,331,Drug or chemical induced diabetes mellitus with hypoglycemia,"2776,61",anual
+332,2023-09-24,332,332,Transient alteration of awareness,"3248,79",cuatrimestral
+333,2023-07-25,333,333,"Disp fx of posterior wall of left acetabulum, init","3713,39",cuatrimestral
+334,2023-08-04,334,334,Late lesions of pinta,"3531,60",anual
+335,2023-08-19,335,335,"Nondisp transverse fx shaft of l rad, 7thD","4841,63",trimestral
+336,2024-03-28,336,336,Congenital phlebectasia,"3928,42",cuatrimestral
+337,2024-02-02,337,337,Periprosth fracture around internal prosthetic ankle joint,"3051,92",semestral
+338,2024-02-26,338,338,"Other superficial bite of right thumb, sequela","4424,82",cuatrimestral
+339,2023-11-10,339,339,"Unsp injury of other blood vessels of thorax, right side","2110,14",semestral
+340,2023-06-21,340,340,"Sprain of carpal joint of left wrist, initial encounter","301,96",trimestral
+341,2023-05-10,341,341,Non-prs chronic ulcer of skin of sites w fat layer exposed,"2313,13",contado
+342,2024-01-07,342,342,"Burn of second degree of female genital region, subs encntr","3769,90",mensual
+343,2023-08-14,343,343,"Pathological fracture, unsp site, subs for fx w nonunion","492,51",cuatrimestral
+344,2024-02-19,344,344,Shock following ectopic and molar pregnancy,"2090,86",contado
+345,2023-08-23,345,345,"Bacterial meningitis, not elsewhere classified","2633,85",semestral
+346,2023-06-24,346,346,"Perf due to fb acc left in body fol surgical op, sequela","272,65",anual
+347,2023-10-19,347,347,"Nondisp oth fx tuberosity of l calcaneus, 7thG","3633,59",semestral
+348,2024-04-01,348,348,"Maternal care for fetal problem, unsp, unsp tri, fetus 3","1055,03",cuatrimestral
+349,2023-07-17,349,349,"Disloc of distal interphaln joint of r mid finger, sequela","1138,41",cuatrimestral
+350,2024-01-07,350,350,"Oth physl fx upr end humer, l arm, subs for fx w routn heal","23,39",anual
+351,2023-10-02,351,351,"Disp fx of olecran pro w intartic extn r ulna, 7thH","4550,87",contado
+352,2023-06-26,352,352,"Nondisp fx of middle third of navic bone of l wrist, init","554,98",semestral
+353,2023-08-17,353,353,"Other embolism in pregnancy, unspecified trimester","711,30",mensual
+354,2023-12-04,354,354,"War operations involving oth dest arcrft, milt, subs","4631,02",anual
+355,2023-06-27,355,355,Occup of hv veh injured in collision w hv veh nontraf,"3501,75",mensual
+356,2024-04-23,356,356,Monoplegia of lower limb,"1490,45",contado
+357,2023-09-10,357,357,Central sleep apnea in conditions classified elsewhere,"1798,57",contado
+358,2023-08-05,358,358,Occupant of 3-whl mv injured in collision w statnry object,"4092,19",trimestral
+359,2023-08-17,359,359,Gammaherpesviral mononucleosis without complication,"3535,56",contado
+360,2023-07-11,360,360,"Nondisp seg fx shaft of l femur, init for opn fx type I/2","3441,58",contado
+361,2023-09-26,361,361,Breakdown (mechanical) of aortic (bifurcation) graft,"3171,36",cuatrimestral
+362,2023-09-10,362,362,"Pathological fracture, right ulna, sequela","2572,41",mensual
+363,2023-12-17,363,363,"Laceration w/o foreign body of thmb w/o damage to nail, subs","2303,52",semestral
+364,2024-02-20,364,364,"Jumping or diving into unsp water causing drown, init","3625,23",anual
+365,2023-11-22,365,365,Furuncle of left foot,"4847,35",anual
+366,2023-08-21,366,366,"Explosion of explosive gases, subsequent encounter","546,80",cuatrimestral
+367,2024-03-21,367,367,"Idiopathic gout, left hand","3007,77",contado
+368,2023-12-27,368,368,"Snow-skier colliding with stationary object, sequela","1729,61",semestral
+369,2023-05-21,369,369,"Displacement of cardiac pulse generator (battery), init","1797,78",cuatrimestral
+370,2023-05-13,370,370,"Lgl intervnt w inj by explosv shl, law enforc offl inj, subs","1395,22",semestral
+371,2024-02-01,371,371,Injury of other intra-abdominal organs,"4286,03",trimestral
+372,2023-10-09,372,372,Passenger on bus injured in collision w rail trn/veh nontraf,"3992,93",anual
+373,2023-11-03,373,373,Tuberculosis of other male genital organs,"1639,85",cuatrimestral
+374,2023-07-07,374,374,"Poisoning by unsp psychotropic drug, assault, init encntr","51,84",mensual
+375,2023-06-09,375,375,"Other multiple liveborn infant, born in hospital","2260,73",anual
+376,2024-04-27,376,376,Neonatal hematemesis,"1531,67",mensual
+377,2023-12-31,377,377,"Burn of third degree of unspecified forearm, init encntr","4787,14",mensual
+378,2023-08-09,378,378,"Unsp injury of unsp blood vess at forarm lv, unsp arm, subs","3751,98",mensual
+379,2023-07-24,379,379,"Erosion of other prosth materials to surrnd org/tiss, init","4605,76",mensual
+380,2023-12-16,380,380,"Inj extn musc/fasc/tend r little finger at forarm lv, subs","1250,31",mensual
+381,2024-03-01,381,381,"Open bite of unsp great toe with damage to nail, init encntr","4122,18",contado
+382,2024-02-23,382,382,"Oth traum nondisp spondylolysis of 2nd cervcal vert, 7thD","4118,80",trimestral
+383,2023-07-25,383,383,"Other localized visual field defect, left eye","1914,43",trimestral
+384,2023-08-12,384,384,Shock following complete or unspecified spontaneous abortion,"1461,84",mensual
+385,2024-01-29,385,385,"Other osteonecrosis, left ankle","1973,52",semestral
+386,2023-06-04,386,386,"Jump/div into natrl body of wtr strk botm cause drown, sqla","1884,58",cuatrimestral
+387,2023-10-20,387,387,"Corrosion of unspecified degree of lower back, subs encntr","692,43",trimestral
+388,2024-02-11,388,388,"Contact with hot drinks, subsequent encounter","1925,30",cuatrimestral
+389,2024-02-13,389,389,"Other streptococcal arthritis, right elbow","2833,11",mensual
+390,2023-06-12,390,390,"Frostbite with tissue necrosis of unsp wrist, subs encntr","446,31",contado
+391,2023-09-30,391,391,Secondary malignant neoplasm of other specified sites,"3689,68",anual
+392,2023-06-03,392,392,"Injury of unsp nerve at wrs/hnd lv of unsp arm, sequela","4908,70",cuatrimestral
+393,2023-07-29,393,393,Chronic nasopharyngitis,"179,82",anual
+394,2023-05-13,394,394,Other viral meningitis,"3241,86",contado
+395,2024-02-21,395,395,Intrinsic (allergic) eczema,"3229,32",contado
+396,2023-06-14,396,396,"Other specified joint disorders, knee","2262,61",anual
+397,2024-01-19,397,397,"Unspecified injury of blood vessel of right thumb, sequela","1748,40",mensual
+398,2024-04-08,398,398,"Other assault by drowning and submersion, initial encounter","2467,98",mensual
+399,2023-07-09,399,399,"Crohn's disease, unspecified, with unspecified complications","2455,39",anual
+400,2023-12-23,400,400,"Barton's fx left rad, subs for opn fx type 3A/B/C w nonunion","923,05",mensual
+401,2024-01-05,401,401,Injury of unspecified intra-abdominal organ,"4647,15",cuatrimestral
+402,2024-01-09,402,402,"Regular astigmatism, right eye","3956,61",anual
+403,2023-05-27,403,403,"Burn of first deg mult right fingers (nail), inc thumb, init","554,07",mensual
+404,2023-08-18,404,404,"Toxic effect of ingested berries, assault","4959,16",contado
+405,2024-05-04,405,405,"Disp fx of epiphysis (separation) (upper) of l femur, init","4039,13",semestral
+406,2023-09-28,406,406,Adhes due to fb acc left in body following unsp procedure,"4861,60",trimestral
+407,2023-07-16,407,407,Laceration of blood vessel of other and unspecified finger,"1569,96",mensual
+408,2023-10-01,408,408,"Displaced apophyseal fx left femur, init for opn fx type I/2","216,00",semestral
+409,2024-04-05,409,409,"Multiple fractures of ribs, bi, subs for fx w nonunion","4664,08",trimestral
+410,2023-05-19,410,410,Adverse effect of ophthalmological drugs and preparations,"3165,04",anual
+411,2023-05-30,411,411,"Disp fx of prox phalanx of r great toe, 7thG","1034,90",cuatrimestral
+412,2024-01-05,412,412,"Stable burst fracture of unsp lumbar vertebra, sequela","2172,69",contado
+413,2023-09-23,413,413,"Exposure to other prolonged low air pressure, init encntr","4594,62",semestral
+414,2023-05-30,414,414,"Severely displaced Zone II fx sacrum, subs for fx w nonunion","2668,41",trimestral
+415,2023-09-09,415,415,"Sezary disease, lymph nodes of head, face, and neck","4259,76",cuatrimestral
+416,2023-08-16,416,416,"Burn 1st deg mult sites of left lower limb, ex ank/ft, init","183,43",anual
+417,2023-07-03,417,417,"Nondisp seg fx shaft of ulna, r arm, 7thK","1155,83",contado
+418,2024-03-27,418,418,"Poisoning by oth drugs acting on muscles, undet, sequela","1044,29",contado
+419,2023-10-22,419,419,"Laceration of popliteal vein, unspecified leg, sequela","3776,44",contado
+420,2024-01-30,420,420,"Frostbite w tissue necrosis of left hip and thigh, sequela","4952,25",semestral
+421,2023-11-15,421,421,"Frostbite w tissue necros right knee and lower leg, sequela","1842,88",mensual
+422,2023-09-22,422,422,"Torus fx lower end of r humerus, subs for fx w routn heal","4201,38",trimestral
+423,2023-08-11,423,423,"Fx unsp phalanx of l rng fngr, subs for fx w nonunion","152,62",anual
+424,2023-11-17,424,424,"Toxic effect of venom of ants, undetermined, subs encntr","1915,04",mensual
+425,2023-12-29,425,425,Laceration without foreign body of hand,"1309,10",anual
+426,2024-04-07,426,426,"Other injury of superior mesenteric artery, sequela","530,59",trimestral
+427,2023-07-15,427,427,"Other injury of bronchus, unilateral","3519,72",trimestral
+428,2023-09-14,428,428,"Laceration without foreign body, left knee","3169,67",contado
+429,2023-07-03,429,429,"Bent bone of right radius, init for opn fx type 3A/B/C","627,09",semestral
+430,2023-12-24,430,430,"Complete traum amp at level betw unsp hip and knee, sequela","1031,66",mensual
+431,2024-02-03,431,431,"Underdosing of other psychotropic drugs, sequela","1096,13",mensual
+432,2023-10-28,432,432,Occupational exposure to radiation,"4516,84",anual
+433,2023-11-27,433,433,"Posterior sublux of proximal end of tibia, right knee, init","1408,17",cuatrimestral
+434,2023-07-26,434,434,"Poisoning by antivaric drugs, inc scler agents, acc, init","1188,85",contado
+435,2023-11-08,435,435,"Posterior subluxation of right humerus, initial encounter","1355,19",anual
+436,2023-08-27,436,436,"Nondisp spiral fx shaft of r tibia, init for opn fx type I/2","4183,37",semestral
+437,2024-02-23,437,437,"Fetal anemia and thrombocytopenia, unsp trimester, unsp","1193,77",mensual
+438,2024-03-06,438,438,Avulsion of right eye,"2509,47",semestral
+439,2023-12-20,439,439,"Synovial hypertrophy, not elsewhere classified, lower leg","4326,49",trimestral
+440,2024-04-01,440,440,Breakdown (mechanical) of ocular prosth dev/grft,"4994,16",mensual
+441,2023-12-28,441,441,"Unstbl burst fx first cervcal vert, subs for fx w delay heal","2958,21",cuatrimestral
+442,2023-05-25,442,442,Displacement of ventricular intracranial shunt,"4166,58",semestral
+443,2023-06-26,443,443,"Contus/lac/hem brnst w LOC w dth d/t oth cause bf consc,subs","3567,51",trimestral
+444,2024-04-20,444,444,"Unsp injury of unsp blood vess at forarm lv, unsp arm, init","4485,30",mensual
+445,2023-11-03,445,445,"Nondisp fx of second metatarsal bone, left foot, init","733,03",semestral
+446,2024-02-07,446,446,"Disp fx of r tibial tuberosity, 7thR","1317,24",contado
+447,2023-07-17,447,447,Pyrexia of unknown origin following delivery,"2015,78",semestral
+448,2023-06-03,448,448,"Nondisp fx of coracoid pro, l shldr, 7thG","4943,33",anual
+449,2023-09-09,449,449,Encounter for exam and observation following work accident,"4845,49",semestral
+450,2023-09-27,450,450,Displaced oblique fracture of shaft of unspecified radius,"4634,24",cuatrimestral
+451,2023-10-30,451,451,"Fibrosis due to vascular prosth dev/grft, initial encounter","70,50",semestral
+452,2023-09-09,452,452,"Disp fx of lateral condyle of unsp humerus, init for opn fx","3179,47",anual
+453,2023-09-20,453,453,Injury of nerves at ankle and foot level,"2906,52",mensual
+454,2023-09-25,454,454,"Displ seg fx shaft of l fibula, subs for clos fx w nonunion","622,73",contado
+455,2024-03-06,455,455,Other contact with hot air and other hot gases,"4193,90",anual
+456,2023-06-12,456,456,Maternal care for other isoimmunization,"2487,17",semestral
+457,2023-06-28,457,457,"Poisoning by cardi-stim glycos/drug simlar act, undetermined","60,85",contado
+458,2023-12-04,458,458,Acute lymphangitis of right upper limb,"3925,37",anual
+459,2023-09-19,459,459,"Nondisp fx of greater trochanter of r femr, 7thD","557,86",cuatrimestral
+460,2023-10-13,460,460,Cyclic neutropenia,"4700,07",cuatrimestral
+461,2023-06-12,461,461,"Poisn by oth prim systemic and hematolog agents, undet, subs","2712,12",anual
+462,2023-11-20,462,462,"Nondisp fx of base of nk of l femr, 7thF","2858,68",cuatrimestral
+463,2024-03-21,463,463,Telogen effluvium,"2847,11",mensual
+464,2023-08-07,464,464,"Other idiopathic scoliosis, cervical region","1341,91",mensual
+465,2023-08-23,465,465,Hyp chr kidney disease w stage 5 chr kidney disease or ESRD,"1669,15",cuatrimestral
+466,2023-05-16,466,466,"Disp fx of neck of scapula, unsp shoulder, init for opn fx","1895,26",trimestral
+467,2023-07-16,467,467,"Unsp injury of musc/fasc/tend at thi lev, right thigh, subs","1890,60",trimestral
+468,2024-04-13,468,468,"LeFort III fracture, subs for fx w routn heal","4006,24",trimestral
+469,2023-11-30,469,469,"Disp fx of medial condyle of unspecified humerus, sequela","4771,87",semestral
+470,2023-06-27,470,470,"Oth fx shaft of l fibula, 7thF","235,45",semestral
+471,2023-11-14,471,471,"Terrorism involving oth means, civilian injured, subs encntr","3429,17",contado
+472,2023-09-12,472,472,"Disp fx of acromial pro, unsp shldr, subs for fx w nonunion","4690,04",semestral
+473,2023-05-19,473,473,"Glasgow coma scale score 3-8, 24+hrs","1164,54",anual
+474,2023-05-10,474,474,"Stress fracture, right tibia, subs for fx w delay heal","3197,86",anual
+475,2024-02-19,475,475,Thanatophoric short stature,"2956,74",anual
+476,2024-04-07,476,476,Other specified bursopathies,"1296,93",mensual
+477,2023-11-27,477,477,"Unsp injury of blood vessel of unsp thumb, subs encntr","2689,31",trimestral
+478,2024-05-02,478,478,"Nondisp longitud fx unsp patella, 7thP","4170,42",semestral
+479,2023-10-23,479,479,"Inj less saphenous at lower leg level, left leg, sequela","3064,16",mensual
+480,2023-11-27,480,480,"Inj oth flexor muscle, fascia and tendon at forearm level","4704,82",semestral
+481,2024-05-02,481,481,"Enteropathic arthropathies, vertebrae","4641,74",trimestral
+482,2023-11-30,482,482,Exposure to rapid changes in air pressure during ascent,"3995,57",trimestral
+483,2024-04-27,483,483,"Oth fx l patella, subs for opn fx type 3A/B/C w delay heal","1590,57",mensual
+484,2023-08-21,484,484,"Other specified injury of peroneal artery, unspecified leg","2050,41",cuatrimestral
+485,2024-02-04,485,485,"Nondisp fx of pisiform, left wrist, subs for fx w delay heal","1361,95",mensual
+486,2023-08-28,486,486,"Oth traum nondisp spondylolysis of 7th cervcal vert, sqla","2005,33",anual
+487,2024-04-15,487,487,Cerebral infrc due to thombos of bilateral carotid arteries,"3976,12",trimestral
+488,2023-05-31,488,488,"Unsp inj muscles and tendons at ank/ft level, r foot, subs","2232,45",semestral
+489,2024-04-20,489,489,"Nondisp fx of base of third MC bone, right hand, sequela","594,55",contado
+490,2023-08-28,490,490,Rheu arthritis w rheumatoid factor of hip w/o org/sys involv,"2036,60",mensual
+491,2023-11-30,491,491,Oth psychoactive substance dependence w mood disorder,"3970,97",anual
+492,2023-10-20,492,492,Toxic effects of benzene,"2553,62",cuatrimestral
+493,2023-10-21,493,493,Focal hyperhidrosis,"2294,91",contado
+494,2023-06-03,494,494,Merkel cell carcinoma of lip,"4337,21",semestral
+495,2023-10-04,495,495,"Drown due to fall/jump fr burning canoe or kayak, subs","1120,23",trimestral
+496,2024-01-26,496,496,"Person outside bus inj in clsn w 2/3-whl mv in traf, init","1101,70",trimestral
+497,2023-12-28,497,497,"Disorder of ligament, hand","2014,36",contado
+498,2023-11-21,498,498,Other reduction defects of unspecified upper limb,"630,96",anual
+499,2023-08-16,499,499,Inhalant dependence,"3798,43",anual
+500,2023-10-25,500,500,"Disord of amnio fluid and membrns, unsp, third tri, fetus 5","1977,18",anual
+501,2023-11-20,501,501,"Nondisp oblique fx shaft of l rad, 7thE","1848,48",trimestral
+502,2024-04-15,502,502,"Pinta, unspecified","2323,68",cuatrimestral
+503,2024-01-25,503,503,"Assault by push/place victim in front of train, init","2373,62",mensual
+504,2023-10-25,504,504,"Other types of follicular lymphoma, intrapelvic lymph nodes","1548,45",cuatrimestral
+505,2023-08-11,505,505,"Adverse effect of unspecified systemic antibiotic, sequela","2461,85",contado
+506,2024-04-24,506,506,Sec and unsp malig neoplasm of inguinal and lower limb nodes,"4447,43",trimestral
+507,2024-03-25,507,507,Displaced Maisonneuve's fracture of right leg,"1039,79",cuatrimestral
+508,2024-02-14,508,508,"Displ transverse fx shaft of r rad, 7thE","2204,54",trimestral
+509,2024-04-06,509,509,"Contact with other commercial machinery, sequela","4958,17",mensual
+510,2024-03-11,510,510,Laceration without foreign body of foot,"2576,39",semestral
+511,2023-11-25,511,511,"Unspecified subluxation of unspecified radial head, sequela","2278,66",semestral
+512,2023-10-12,512,512,"Nondisplaced longitudinal fracture of unsp patella, init","2906,48",contado
+513,2023-12-02,513,513,"Burn of unspecified degree of right forearm, init encntr","1721,17",anual
+514,2024-03-22,514,514,"Displ artic fx head of unsp femr, 7thQ","2871,84",semestral
+515,2024-02-16,515,515,"Crushing injury of unspecified great toe, sequela","669,42",trimestral
+516,2023-12-17,516,516,Antihypertensive drugs,"4548,62",mensual
+517,2023-11-13,517,517,Sickle-cell thalassemia without crisis,"1013,82",mensual
+518,2024-01-29,518,518,"Disp fx of glenoid cavity of scapula, unsp shoulder, sequela","2417,80",anual
+519,2023-11-03,519,519,Pain in lower leg,"2763,75",trimestral
+520,2023-12-15,520,520,Non-pressure chronic ulcer of left calf w necrosis of bone,"3092,05",anual
+521,2023-09-03,521,521,Toxic erythema,"4703,06",mensual
+522,2024-04-30,522,522,Spastic entropion of left upper eyelid,"4194,36",trimestral
+523,2023-07-11,523,523,"Polyarthritis, unspecified","826,27",anual
+524,2023-06-15,524,524,Recurrent pterygium of left eye,"321,14",cuatrimestral
+525,2024-03-20,525,525,"Underdosing of unsp drug/meds/biol subst, init","195,29",anual
+526,2023-05-31,526,526,"Pedl cyc driver injured in clsn w 2/3-whl mv nontraf, init","469,18",anual
+527,2023-07-07,527,527,"Hit by falling object due to accident to pasngr ship, init","1018,37",contado
+528,2024-04-20,528,528,"Laceration of unspecified intra-abdominal organ, subs encntr","3299,42",trimestral
+529,2023-09-26,529,529,"Corrosion of third degree of trunk, unsp site, subs encntr","980,91",mensual
+530,2023-08-18,530,530,Rheumatoid vasculitis with rheumatoid arthritis of unsp hand,"741,51",trimestral
+531,2023-11-18,531,531,"Autoinflammatory syndrome, unspecified","4114,73",contado
+532,2024-02-07,532,532,"Other articular cartilage disorders, left shoulder","1892,87",mensual
+533,2023-07-06,533,533,"Crushing injury of right shoulder and upper arm, init encntr","2114,67",anual
+534,2023-09-11,534,534,"Infect/inflm react due to oth int orth prosth dev/grft, sqla","2230,06",mensual
+535,2023-10-19,535,535,"Age-rel osteopor w crnt path fx, unsp humer, 7thD","4646,23",contado
+536,2023-09-15,536,536,"Nondisp fx of acromial process, left shoulder, init","4300,03",contado
+537,2023-11-30,537,537,"Adverse effect of drugs affecting uric acid metabolism, subs","2922,80",cuatrimestral
+538,2024-03-16,538,538,Diphtheritic conjunctivitis,"61,80",cuatrimestral
+539,2023-10-16,539,539,"Displ subtrochnt fx l femr, 7thQ","1429,98",anual
+540,2024-01-24,540,540,"Crushing injury of unspecified foot, initial encounter","4050,45",contado
+541,2024-02-29,541,541,"Corrosion of first degree of unspecified thigh, init encntr","4861,37",trimestral
+542,2024-02-07,542,542,"Contact with paper-cutter, sequela","3149,10",mensual
+543,2023-11-28,543,543,"Nondisp trimalleol fx unsp low leg, 7thM","70,29",cuatrimestral
+544,2023-12-25,544,544,"Pnctr w foreign body of finger w/o damage to nail, init","496,20",mensual
+545,2023-05-17,545,545,"Other physeal fracture of upper end of humerus, left arm","916,22",mensual
+546,2023-07-01,546,546,"Oth osteopor w crnt path fx, l low leg, 7thP","4017,52",semestral
+547,2024-01-01,547,547,"Open bite of right upper arm, subsequent encounter","1078,36",semestral
+548,2024-04-22,548,548,"Other rupture of muscle (nontraumatic), left thigh","3516,45",mensual
+549,2024-01-22,549,549,"Unspecified Eustachian tube disorder, bilateral","3567,90",mensual
+550,2023-12-27,550,550,"Nondisp artic fx head of l femr, 7thQ","1081,67",trimestral
+551,2024-04-09,551,551,"Pasngr in 3-whl mv inj in nonclsn trnsp acc in traf, sequela","2713,43",contado
+552,2023-11-27,552,552,"Other juvenile arthritis, unspecified site","1548,30",anual
+553,2023-09-03,553,553,"Other secondary gout, left ankle and foot","1700,83",mensual
+554,2023-12-20,554,554,Marburg virus disease,"1076,53",semestral
+555,2023-07-26,555,555,"Underdosing of inhaled anesthetics, initial encounter","2137,53",cuatrimestral
+556,2023-05-17,556,556,Other atresia and stenosis of urethra and bladder neck,"2707,51",semestral
+557,2023-08-30,557,557,Chronic venous htn w ulcer and inflammation of r low extrem,"1685,44",semestral
+558,2023-12-14,558,558,"Disp fx of med condyle of unsp tibia, 7thF","2738,20",mensual
+559,2024-01-23,559,559,"Sublux of interphaln joint of right lesser toe(s), sequela","45,60",semestral
+560,2023-06-18,560,560,"Diffuse TBI w/o loss of consciousness, subs","3888,36",anual
+561,2023-06-21,561,561,Laceration of other blood vessels at ankle and foot level,"4817,53",semestral
+562,2023-12-17,562,562,Severe atrophy of the mandible,"622,72",mensual
+563,2023-05-31,563,563,"Nondisp bimalleol fx l low leg, init for opn fx type I/2","958,90",semestral
+564,2024-04-20,564,564,"Abscess of tendon sheath, right lower leg","4290,57",contado
+565,2023-12-15,565,565,"Greenstick fx shaft of humer, r arm, 7thG","2509,43",cuatrimestral
+566,2023-08-24,566,566,Peripheral corneal degeneration,"3974,59",mensual
+567,2024-04-11,567,567,"Other specified rheumatoid arthritis, multiple sites","1197,62",anual
+568,2024-04-19,568,568,"Open bite of unspecified part of head, sequela","4495,30",anual
+569,2023-12-24,569,569,Non-pressure chronic ulcer of unspecified calf,"4586,04",cuatrimestral
+570,2024-02-07,570,570,Atheroembolism of left upper extremity,"4693,68",trimestral
+571,2023-10-28,571,571,"Congenital malformations of palate, not elsewhere classified","618,02",semestral
+572,2024-04-25,572,572,Omphalitis not of newborn,"3180,15",mensual
+573,2023-11-21,573,573,"Mtrcy driver injured in collision w 2/3-whl mv nontraf, init","4053,25",anual
+574,2024-01-11,574,574,"Abrasion of unsp eyelid and periocular area, subs encntr","1678,57",cuatrimestral
+575,2023-11-26,575,575,"Unsp Zone II fracture of sacrum, subs for fx w routn heal","1492,61",contado
+576,2023-12-11,576,576,Assault by pushing from high place,"2620,79",anual
+577,2024-02-27,577,577,"Unsp fracture of right lower leg, init for clos fx","2993,08",anual
+578,2023-06-12,578,578,"Exposure to ignition or melting of nightwear, sequela","3233,54",mensual
+579,2024-03-10,579,579,"Sltr-haris Type III physl fx low end l tibia, 7thG","3139,12",semestral
+580,2023-10-03,580,580,Nondisplaced comminuted fracture of shaft of left tibia,"2632,97",semestral
+581,2023-09-13,581,581,"Oth complication of vascular dialysis catheter, init encntr","2870,53",semestral
+582,2023-06-14,582,582,"Arthritis due to other bacteria, left hand","4827,15",anual
+583,2023-09-08,583,583,Calculus of bile duct w acute and chr cholangitis w/o obst,"4075,14",contado
+584,2023-08-27,584,584,"Nondisp spiral fx shaft of unsp fibula, 7thJ","1590,51",anual
+585,2024-02-05,585,585,Food in pharynx causing other injury,"3308,90",mensual
+586,2023-10-07,586,586,"Laceration of unsp quadriceps musc/fasc/tend, sequela","917,66",cuatrimestral
+587,2024-02-11,587,587,"Strain musc/tend ant grp at low leg level, left leg, init","4897,24",mensual
+588,2023-08-28,588,588,Nervousness,"3339,58",trimestral
+589,2024-03-22,589,589,"Oth disrd of amniotic fluid and membrns, first tri, oth","4918,91",trimestral
+590,2023-10-21,590,590,"Sltr-haris Type I physl fx lower end humer, left arm, init","1431,23",mensual
+591,2024-04-11,591,591,"Nondisp fx of distal phalanx of right great toe, sequela","3401,57",anual
+592,2024-04-17,592,592,Second degree perineal laceration during delivery,"3111,17",anual
+593,2024-03-19,593,593,Other group 2 peroxisomal disorders,"1365,75",trimestral
+594,2024-02-14,594,594,"Stress fracture, unspecified ankle, sequela","4365,02",cuatrimestral
+595,2023-12-11,595,595,"Assault by unarmed brawl or fight, subsequent encounter","1766,43",contado
+596,2024-02-20,596,596,"Oth fx upr end left rad, subs for opn fx type I/2 w nonunion","376,50",anual
+597,2023-05-30,597,597,Kitchen in nursing home as place,"3872,72",cuatrimestral
+598,2023-11-20,598,598,"Toxic effect of noxious substnc eaten as food, undet, subs","2112,68",mensual
+599,2023-10-01,599,599,Xanthelasma of right lower eyelid,"3704,01",contado
+600,2023-07-07,600,600,"Scotoma involving central area, left eye","2814,12",contado
+601,2024-05-05,601,601,Unhappiness,"1347,93",trimestral
+602,2023-11-12,602,602,"Toxic effect of glycols, accidental (unintentional)","2830,93",contado
+603,2023-08-08,603,603,"Pnctr w fb of l bk wl of thorax w/o penet thor cavity, init","2362,63",cuatrimestral
+604,2023-10-20,604,604,"Cont preg after spon abort of one fetus or more, third tri","2698,35",contado
+605,2023-12-17,605,605,"Fracture of base of skull, left side, 7thD","495,37",trimestral
+606,2024-01-23,606,606,Unsp narcotics,"3461,98",mensual
+607,2023-12-20,607,607,"Toxic effect of carb monx from oth source, accidental, subs","590,48",cuatrimestral
+608,2024-04-13,608,608,"Accident to, on or involving land-yacht, sequela","4834,99",semestral
+609,2024-01-07,609,609,"Nondisp oblique fx shaft of l rad, 7thE","201,01",anual
+610,2024-04-06,610,610,Blister (nonthermal) of thumb,"1286,22",cuatrimestral
+611,2023-12-30,611,611,Neoplasm of uncertain behavior of right renal pelvis,"3421,00",cuatrimestral
+612,2023-05-10,612,612,Malignant neoplasm of pineal gland,"665,61",mensual
+613,2023-12-21,613,613,Postradiation scoliosis,"981,95",semestral
+614,2023-08-22,614,614,Fall on board canoe or kayak,"2001,36",anual
+615,2024-03-01,615,615,Intraop hemor/hemtom of ear/mastd comp a proc on ear/mastd,"1687,05",mensual
+616,2023-11-01,616,616,"Unsp inj extn musc/fasc/tend at forarm lv, left arm, subs","2976,84",mensual
+617,2023-05-13,617,617,"Unsp fracture of the lower end of unsp radius, sequela","2652,37",trimestral
+618,2023-07-07,618,618,"Nondisp oblique fx shaft of humer, unsp arm, init for opn fx","42,22",trimestral
+619,2023-11-06,619,619,"Driver of pk-up/van inj in clsn w pedl cyc nontraf, sequela","3137,24",trimestral
+620,2023-08-08,620,620,"Ped on foot injured in clsn w rail trn/veh nontraf, init","1822,15",contado
+621,2023-11-01,621,621,"Disp fx of distal phalanx of left lesser toe(s), sequela","4448,43",trimestral
+622,2023-05-15,622,622,"Primary blast injury of ascending [right] colon, sequela","4537,34",cuatrimestral
+623,2023-11-06,623,623,"Open bite of vocal cord, initial encounter","3888,33",mensual
+624,2024-03-11,624,624,"Unsp injury of right internal jugular vein, init encntr","3683,56",trimestral
+625,2023-08-22,625,625,"Enophthalmos due to atrophy of orbital tissue, bilateral","1463,85",trimestral
+626,2023-11-25,626,626,"Nondisp transverse fx shaft of humer, l arm, 7thG","872,14",anual
+627,2023-05-28,627,627,"Oth fracture of unsp femur, subs for clos fx w delay heal","1329,21",semestral
+628,2024-01-21,628,628,Lateral epicondylitis,"4426,90",anual
+629,2023-05-13,629,629,"Nondisplaced dome fracture of right acetabulum, sequela","3871,44",cuatrimestral
+630,2023-05-10,630,630,"Corrosion of third degree of right foot, sequela","4741,64",trimestral
+631,2024-04-04,631,631,"Unsp fx low end r femr, subs for opn fx type I/2 w malunion","1561,12",contado
+632,2023-11-22,632,632,Dining room in oth residential institution as place,"2405,29",trimestral
+633,2023-08-29,633,633,"Insect bite (nonvenomous), left lower leg, initial encounter","4436,52",mensual
+634,2023-11-22,634,634,Malig neoplm of ovrlp sites of bone/artic cartl of left limb,"4809,27",semestral
+635,2023-05-20,635,635,"Displ seg fx shaft of rad, unsp arm, 7thF","3724,44",cuatrimestral
+636,2023-10-10,636,636,"Disp fx of olecran pro w/o intartic extn unsp ulna, 7thC","4060,81",contado
+637,2023-06-27,637,637,"Disp fx of nk of 4th MC bone, r hand, subs for fx w malunion","3438,59",contado
+638,2023-11-14,638,638,"Other physeal fracture of unspecified calcaneus, 7thP","1980,91",semestral
+639,2023-09-30,639,639,Bone and joint lesions of yaws,"3969,89",semestral
+640,2023-12-14,640,640,"Poisoning by other viral vaccines, undetermined, subs encntr","489,22",trimestral
+641,2024-03-10,641,641,"Torus fx upper end of unsp ulna, subs for fx w delay heal","264,11",cuatrimestral
+642,2023-07-26,642,642,"Toxic effect of other alcohols, undetermined, sequela","4797,93",trimestral
+643,2024-05-01,643,643,"Traumatic rupture of unsp radiocarpal ligament, init encntr","3167,34",semestral
+644,2024-01-12,644,644,"Poisn by mixed bact vaccines w/o a pertuss, acc, sequela","70,38",anual
+645,2023-08-16,645,645,Fear of injury,"4167,80",contado
+646,2024-03-22,646,646,"Sltr-haris Type II physl fx low end ulna, l arm, 7thK","3731,44",semestral
+647,2023-07-06,647,647,"Nondisp bimalleol fx unsp low leg, 7thC","2201,98",trimestral
+648,2023-08-08,648,648,"Pasngr in hv veh inj pick-up truck, pk-up/van nontraf, init","3066,65",trimestral
+649,2023-11-18,649,649,Idio sleep related nonobstructive alveolar hypoventilation,"430,81",trimestral
+650,2024-04-17,650,650,Antisocial personality disorder,"4020,29",contado
+651,2023-05-14,651,651,"Laceration of blood vessels of thorax, unsp side, sequela","4843,64",mensual
+652,2023-12-10,652,652,"Unsp injury of musc/fasc/tend at forarm lv, unsp arm, subs","751,76",contado
+653,2024-01-30,653,653,"Corrosion of third degree of right upper arm, subs encntr","2245,21",anual
+654,2024-04-21,654,654,"Superficial foreign body of right front wall of thorax, init","228,03",semestral
+655,2024-01-07,655,655,"Oth fracture of shaft of unsp tibia, init for clos fx","3604,04",anual
+656,2023-11-29,656,656,Burn of unspecified degree of right forearm,"1323,70",contado
+657,2024-04-28,657,657,Laceration with foreign body of unspecified buttock,"956,36",contado
+658,2024-02-19,658,658,Primary blast injury of descending [left] colon,"1896,16",trimestral
+659,2023-10-18,659,659,"Toxic effect of nitrogen oxides, assault, initial encounter","1726,30",semestral
+660,2023-07-07,660,660,Other symbolic dysfunctions,"163,89",mensual
+661,2023-09-09,661,661,Type 1 diabetes w diabetic peripheral angiopath w/o gangrene,"300,97",cuatrimestral
+662,2023-11-07,662,662,Hydrops fetalis due to other hemolytic disease,"1984,40",trimestral
+663,2023-10-05,663,663,"Other calcification of muscle, lower leg","382,19",semestral
+664,2023-05-24,664,664,"Other secondary gout, elbow","3438,01",anual
+665,2024-05-04,665,665,"Disp fx of coronoid pro of r ulna, 7thG","3383,51",contado
+666,2024-02-07,666,666,"Contusion of left lower leg, subsequent encounter","3351,87",semestral
+667,2023-08-09,667,667,Unsp soft tissue disorder related to use/pressure,"2818,81",mensual
+668,2024-03-19,668,668,"Nondisplaced Rolando's fracture, unsp hand, init for opn fx","4407,99",semestral
+669,2024-02-01,669,669,Congenital deformities of hip,"1774,47",contado
+670,2023-12-10,670,670,Unspecified acquired deformity of left lower leg,"4399,47",semestral
+671,2023-07-18,671,671,"Toxic effect of contact w oth venomous animals, accidental","4846,27",semestral
+672,2023-08-25,672,672,"Oth physeal fx upper end of humerus, left arm, sequela","716,38",semestral
+673,2023-07-13,673,673,"Occup of 3-whl mv inj in clsn w pedl cyc in traf, sequela","2598,96",trimestral
+674,2024-03-20,674,674,"Traumatic rupture of ligament of finger at MCP/IP jt, init","553,10",mensual
+675,2024-01-13,675,675,"Torus fx lower end of right femur, subs for fx w nonunion","4109,37",trimestral
+676,2023-12-30,676,676,"Oth traum nondisp spondylolysis of fifth cervcal vert, init","1095,73",contado
+677,2023-08-31,677,677,"Driver of hv veh injured in clsn w unsp mv nontraf, subs","4439,04",cuatrimestral
+678,2024-03-21,678,678,Encounter for supervision of normal pregnancy,"1933,12",anual
+679,2023-05-22,679,679,Polymyositis with respiratory involvement,"1958,58",semestral
+680,2023-07-16,680,680,"Minor laceration of unsp vertebral artery, subs encntr","2421,92",semestral
+681,2024-02-05,681,681,"Unsp physl fx lower end of r femur, subs for fx w routn heal","189,79",trimestral
+682,2023-08-05,682,682,"Moderate laceration of unspecified kidney, initial encounter","1141,47",contado
+683,2023-09-20,683,683,Osteonecrosis due to previous trauma of unspecified ulna,"2547,32",cuatrimestral
+684,2023-05-19,684,684,"Traum hemor r cereb w LOC w dth d/t oth cause bf consc, subs","4842,72",trimestral
+685,2023-10-07,685,685,"Nondisp fx of med phalanx of l mid fngr, 7thK","4421,10",trimestral
+686,2023-05-31,686,686,"Unsp injury at C4 level of cervical spinal cord, sequela","3263,21",mensual
+687,2023-09-09,687,687,Stenosis of peripheral vascular stent,"1752,52",anual
+688,2023-11-12,688,688,Overexertion and strenuous or repetitive movements,"3268,76",cuatrimestral
+689,2023-06-11,689,689,"Crushed betw sailboat and oth wtrcrft/obj due to clsn, subs","4112,60",trimestral
+690,2024-03-29,690,690,"Maternal care for malpresentation of fetus, unsp, unsp","2184,97",contado
+691,2024-04-23,691,691,"Injury of trochlear nerve, left side, sequela","4083,71",trimestral
+692,2023-07-30,692,692,"Inj unsp musc/fasc/tend at thigh level, right thigh, init","2893,61",trimestral
+693,2024-02-06,693,693,"Injury of deep peroneal nrv at ank/ft level, left leg, init","2363,17",mensual
+694,2023-08-10,694,694,Other antepartum hemorrhage,"3908,41",anual
+695,2023-07-09,695,695,"Laceration w/o foreign body of right shoulder, subs encntr","4494,41",cuatrimestral
+696,2024-05-06,696,696,"Poisoning by unsp fibrin-affct drugs, undetermined, sequela","3021,36",mensual
+697,2024-03-19,697,697,"Nondisp fx of 3rd metatarsal bone, r ft, 7thD","1576,69",mensual
+698,2023-07-23,698,698,"War operations involving oth fire/hot subst, milt, init","1480,12",cuatrimestral
+699,2024-04-05,699,699,"Pedl cyc passenger injured in clsn w oth mv in traf, init","3391,45",semestral
+700,2024-02-18,700,700,Cerebral hemorrhage due to birth injury,"4102,64",mensual
+701,2023-11-21,701,701,"Pnctr w foreign body of r mid finger w damage to nail, subs","2456,97",cuatrimestral
+702,2023-06-02,702,702,"Age-rel osteopor w current path fracture, l humerus, sequela","2030,60",trimestral
+703,2023-12-09,703,703,"Unsp injury of intercostal blood vessels, unsp side, sequela","1258,88",semestral
+704,2023-07-24,704,704,"Other chronic suppurative otitis media, right ear","2502,48",trimestral
+705,2023-06-02,705,705,"Corrosion of first degree of neck, sequela","1576,60",anual
+706,2024-01-10,706,706,Subluxation complex (vertebral) of lumbar region,"3150,09",contado
+707,2023-11-06,707,707,"Unspecified noninfective disorders of pinna, unspecified ear","3050,78",semestral
+708,2023-06-04,708,708,"Toxic effect of venom of ants, self-harm, sequela","1753,94",trimestral
+709,2023-09-07,709,709,"Burn of first degree of left hand, unsp site, init encntr","4217,27",semestral
+710,2024-04-02,710,710,"Acute ethmoidal sinusitis, unspecified","4353,22",cuatrimestral
+711,2024-01-26,711,711,"Osteitis deformans in neoplastic diseases, left ank/ft","4756,31",contado
+712,2023-09-20,712,712,Pathological gambling,"1380,65",mensual
+713,2023-05-13,713,713,"Other acute osteomyelitis, unspecified ankle and foot","4570,90",trimestral
+714,2024-01-09,714,714,Unsp injury at unspecified level of thoracic spinal cord,"4644,28",cuatrimestral
+715,2023-05-10,715,715,"Choroidal rupture, bilateral","3104,99",cuatrimestral
+716,2024-04-12,716,716,"Occup of pk-up/van inj in clsn w pedl cyc in traf, sequela","306,92",trimestral
+717,2023-12-08,717,717,"Fall from ice-skates, subsequent encounter","1112,87",mensual
+718,2023-08-24,718,718,Nondisp fx of distal pole of navicular bone of left wrist,"1011,12",mensual
+719,2023-08-24,719,719,"Unsp fracture of T9-T10 vertebra, init for clos fx","2633,06",semestral
+720,2023-12-10,720,720,Fracture of proximal phalanx of lesser toe(s),"3854,47",contado
+721,2023-10-25,721,721,"Other injury of stomach, initial encounter","353,02",contado
+722,2023-11-19,722,722,"Periprosth fx around internal prosth r shoulder jt, init","2807,54",cuatrimestral
+723,2024-04-12,723,723,"Other specified injury of right Achilles tendon, sequela","1690,06",mensual
+724,2024-02-11,724,724,"Corrosion of unspecified degree of right upper arm, sequela","2398,08",trimestral
+725,2024-01-12,725,725,"Sltr-haris Type II physl fx upr end r tibia, 7thG","4764,80",cuatrimestral
+726,2023-07-03,726,726,"Burn second degree of head, face, and neck, unsp site, subs","3043,04",contado
+727,2024-04-18,727,727,"Underdosing of beta-adrenoreceptor antagonists, subs encntr","2450,27",mensual
+728,2023-07-16,728,728,"Adverse effect of nonopioid analges/antipyret, NEC, subs","3838,68",contado
+729,2023-07-07,729,729,"Disp fx of shaft of first metacarpal bone, right hand, init","2001,38",anual
+730,2024-04-26,730,730,Other chlamydial infection of lower genitourinary tract,"1833,76",cuatrimestral
+731,2024-01-12,731,731,Contusion of right wrist,"674,56",contado
+732,2024-01-23,732,732,Disp fx of olecran pro w intartic extension of right ulna,"4285,22",semestral
+733,2024-02-19,733,733,"Maxillary fracture, right side, 7thK","4997,46",semestral
+734,2023-05-25,734,734,"Toxic effect of unspecified substance, assault, subs encntr","1051,41",anual
+735,2023-10-25,735,735,"Toxic effect of cadmium and its compounds, undetermined","3696,14",contado
+736,2024-02-20,736,736,"Hemarthrosis, other specified site","3265,53",anual
+737,2024-03-29,737,737,Displaced spiral fracture of shaft of unspecified tibia,"1955,14",cuatrimestral
+738,2023-12-23,738,738,"Orbital myositis, unspecified orbit","4783,44",semestral
+739,2024-01-10,739,739,Toxic liver disease with cholestasis,"2606,25",cuatrimestral
+740,2024-03-01,740,740,"Disp fx of med condyle of unsp femr, 7thG","1191,83",trimestral
+741,2024-03-16,741,741,"Poisn by butyrophen/thiothixen neuroleptc, self-harm, init","3824,54",trimestral
+742,2023-12-21,742,742,Accidental pnctr & lac of a GU sys org dur proc,"3501,00",semestral
+743,2024-04-03,743,743,Acquired hemophilia,"1895,65",anual
+744,2023-11-20,744,744,"Laceration w/o foreign body of unsp part of neck, subs","4973,49",cuatrimestral
+745,2023-10-09,745,745,Osteitis deformans of lower leg,"1126,04",anual
+746,2023-05-29,746,746,"Disp fx of lateral condyle of r tibia, 7thM","4438,21",mensual
+747,2023-05-19,747,747,Struck by falling object on fishing boat,"58,48",cuatrimestral
+748,2024-02-26,748,748,Laceration of musc/fasc/tend at wrist and hand level,"2108,49",semestral
+749,2023-12-23,749,749,"Car driver injured in collision w SUV nontraf, subs","148,23",contado
+750,2023-08-06,750,750,Displaced segmental fracture of shaft of right fibula,"1587,10",mensual
+751,2023-08-27,751,751,Leukoplakia of vulva,"4211,87",anual
+752,2023-07-18,752,752,"Contusion of right thumb with damage to nail, init encntr","1774,78",mensual
+753,2023-11-09,753,753,Displaced transverse fracture of shaft of left radius,"2419,84",semestral
+754,2023-06-14,754,754,"Disruption of external operation (surgical) wound, NEC","411,16",mensual
+755,2023-12-31,755,755,Displaced comminuted fracture of left patella,"3903,78",trimestral
+756,2023-09-15,756,756,Laceration w foreign body of l idx fngr w/o damage to nail,"4774,28",semestral
+757,2024-01-06,757,757,"Displacmnt of internal orth devices, implnt and grafts, init","496,02",semestral
+758,2024-03-29,758,758,Atypical virus infections of central nervous system,"3428,18",semestral
+759,2024-04-05,759,759,"Sltr-haris Type I physl fx upper end radius, right arm, sqla","3154,87",cuatrimestral
+760,2023-08-26,760,760,Type A behavior pattern,"1838,50",trimestral
+761,2023-11-25,761,761,"Corrosion of third degree of chest wall, subs encntr","1268,67",mensual
+762,2024-01-23,762,762,"Corrosion of unsp degree of unsp scapular region, sequela","433,07",anual
+763,2024-03-16,763,763,"Disseminated chorioretin inflammation, generalized, unsp eye","2531,10",mensual
+764,2024-02-01,764,764,"Superficial foreign body of unspecified elbow, sequela","230,73",semestral
+765,2023-11-19,765,765,"Nondisp fx of ant column of left acetab, init for opn fx","3351,50",trimestral
+766,2023-12-14,766,766,Other congenital varus deformities of feet,"834,39",anual
+767,2023-12-10,767,767,"Chorioamnionitis, first trimester, fetus 4","2091,70",contado
+768,2023-09-06,768,768,"Chronic mucoid otitis media, right ear","4927,80",trimestral
+769,2024-01-31,769,769,"Encounter for supervision of normal pregnancy, unspecified","2990,69",semestral
+770,2023-05-26,770,770,Abdominal aortic ectasia,"360,87",semestral
+771,2023-07-24,771,771,Mechanical complication of intraocular lens,"2758,92",semestral
+772,2023-07-20,772,772,Phlegmonous dacryocystitis of unspecified lacrimal passage,"3303,36",trimestral
+773,2023-11-28,773,773,Unspecified displaced fracture of second cervical vertebra,"4639,52",contado
+774,2023-12-25,774,774,"Crushing injury of right ankle, sequela","1931,76",mensual
+775,2024-02-14,775,775,"Toxic effect of other seafood, accidental (unintentional)","2203,98",mensual
+776,2024-03-14,776,776,Athscl unsp type bypass of the right leg w ulcer of ankle,"595,63",anual
+777,2024-02-25,777,777,Corrosion of first degree of right forearm,"4488,27",trimestral
+778,2023-09-28,778,778,Chronic embolism and thrombosis of deep veins of r up extrem,"4369,83",contado
+779,2023-07-22,779,779,"Oth fracture of left ischium, init encntr for open fracture","4984,44",mensual
+780,2023-09-04,780,780,"Open bite of unsp frnt wall of thrx w/o penet thor cav, init","932,68",trimestral
+781,2023-07-25,781,781,Assault by drown after push into swimming pool,"988,12",semestral
+782,2024-01-12,782,782,"Displ transverse fx shaft of l fibula, 7thK","2242,01",semestral
+783,2023-10-15,783,783,Diffuse secondary atrophy of choroid,"1474,17",cuatrimestral
+784,2024-03-09,784,784,"Disp fx of distal phalanx of left lesser toe(s), sequela","2228,11",semestral
+785,2023-07-15,785,785,Intraop hemor/hemtom of a GU sys org comp a procedure,"3461,72",cuatrimestral
+786,2024-04-10,786,786,Laceration w/o fb of unsp lesser toe(s) w/o damage to nail,"451,77",mensual
+787,2024-01-01,787,787,"Corrosion of first degree of right palm, subs encntr","2285,01",contado
+788,2023-08-20,788,788,"Nondisp fx of olecran pro w/o intartic extn l ulna, 7thM","2051,57",cuatrimestral
+789,2023-07-23,789,789,Injury of digital nerve of thumb,"728,55",semestral
+790,2023-12-21,790,790,"Solitary bone cyst, ankle and foot","2964,29",contado
+791,2023-11-21,791,791,"Unsp fracture of the lower end of unsp radius, sequela","3065,04",mensual
+792,2024-02-24,792,792,"Nondisp osteochon fx r patella, subs for clos fx w malunion","1906,51",cuatrimestral
+793,2023-05-15,793,793,"Toxic effect of contact w oth jellyfish, undet, sequela","904,64",anual
+794,2023-12-24,794,794,"Ischemic optic neuropathy, unspecified eye","3626,57",anual
+795,2023-06-16,795,795,"Collapsed vertebra, NEC, sacr/sacrocygl region, sqla","1000,79",cuatrimestral
+796,2024-04-15,796,796,Unstable burst fracture of first cervical vertebra,"3997,26",trimestral
+797,2024-04-05,797,797,"Pathological fracture, left ulna, subs for fx w delay heal","963,82",semestral
+798,2024-01-15,798,798,"Unsp fx upr end unsp tibia, 7thM","1166,95",trimestral
+799,2024-03-17,799,799,"Disp fx of prox 3rd of navic bone of l wrs, 7thD","3246,32",cuatrimestral
+800,2023-07-10,800,800,Atrial septal defect as current complication following AMI,"3811,47",semestral
+801,2024-03-28,801,801,"Nondisp seg fx shaft of l tibia, 7thJ","1242,72",cuatrimestral
+802,2024-02-29,802,802,Oth rheumatoid arthritis w rheumatoid factor of left wrist,"3498,43",trimestral
+803,2024-01-05,803,803,"Poisoning by oral contraceptives, self-harm, sequela","3301,88",contado
+804,2023-08-01,804,804,"Unsp fx shaft of unsp fibula, subs for clos fx w malunion","328,50",cuatrimestral
+805,2023-05-26,805,805,"Migraine, unspecified, intractable, with status migrainosus","1187,27",cuatrimestral
+806,2023-11-03,806,806,"Bent bone of r rad, subs for opn fx type 3A/B/C w routn heal","1906,40",semestral
+807,2024-01-21,807,807,"Corrosion of unsp degree of unspecified lower leg, sequela","1571,26",trimestral
+808,2023-12-22,808,808,"Unsp inj unsp blood vess at low leg level, left leg, sequela","2235,35",semestral
+809,2023-06-08,809,809,"Age-related osteopor w current path fracture, right hand","2374,45",trimestral
+810,2024-04-21,810,810,"Epilepsy, unsp, not intractable, with status epilepticus","4648,32",anual
+811,2024-02-06,811,811,"Other dislocation of right radial head, subsequent encounter","3341,43",contado
+812,2024-01-19,812,812,"Corrosion of second degree of female genital region, init","756,81",cuatrimestral
+813,2024-04-08,813,813,Displaced fracture of greater tuberosity of right humerus,"866,40",semestral
+814,2023-11-27,814,814,Unspecified sprain of left hip,"813,29",anual
+815,2023-06-07,815,815,Thrombosis due to cardiac prosth dev/grft,"1395,98",trimestral
+816,2024-02-18,816,816,Sltr-haris Type III physeal fx lower end of left tibia,"626,97",trimestral
+817,2023-10-27,817,817,Neoplasm of uncertain behavior of stomach,"807,57",contado
+818,2023-10-07,818,818,"Displacement of internal fixation device of oth bones, init","1505,04",mensual
+819,2023-05-13,819,819,"Matern care for disproprtn of mix matern & fetl origin, fts2","1868,81",cuatrimestral
+820,2023-07-17,820,820,"Displ artic fx head of r femr, 7thN","4939,13",trimestral
+821,2023-09-04,821,821,"Laceration w/o fb of r idx fngr w/o damage to nail, subs","2636,35",trimestral
+822,2023-06-14,822,822,"Unspecified open wound of unspecified forearm, subs encntr","1699,56",mensual
+823,2023-11-07,823,823,Driver of special construction vehicle injured nontraf,"2673,35",anual
+824,2023-10-31,824,824,"Sltr-haris Type III physl fx low end ulna, unsp arm, 7thD","979,15",mensual
+825,2024-01-28,825,825,Oth paralytic syndrome fol ntrm intcrbl hemor aff unsp side,"1198,18",mensual
+826,2024-01-06,826,826,"Disp fx of unsp tibial tuberosity, 7thG","4372,12",anual
+827,2023-09-19,827,827,Laceration w foreign body of unsp finger with damage to nail,"4149,03",contado
+828,2024-02-01,828,828,"Superficial foreign body of unsp upper arm, subs encntr","1716,98",trimestral
+829,2023-11-19,829,829,Trichiasis without entropian right lower eyelid,"3489,47",trimestral
+830,2024-03-30,830,830,Chronic nasopharyngitis,"3888,57",semestral
+831,2024-04-09,831,831,Burn of second degree of neck,"145,39",semestral
+832,2023-12-06,832,832,Inj extensor musc/fasc/tend l little finger at forearm level,"3854,82",cuatrimestral
+833,2023-08-25,833,833,Acquired absence of pancreas,"3785,64",mensual
+834,2023-10-31,834,834,"Oth fx second metacarpal bone, right hand, init for opn fx","283,23",semestral
+835,2023-11-19,835,835,Anthelminthics,"1936,04",trimestral
+836,2023-10-03,836,836,"Injury of peroneal nrv at lower leg level, left leg, sequela","3949,55",contado
+837,2024-02-05,837,837,"Burn 1st deg mult sites of right lower limb, ex ank/ft, subs","2730,81",trimestral
+838,2023-11-28,838,838,"Charcot's joint, ankle and foot","117,15",semestral
+839,2024-04-09,839,839,Unsp injury of unsp blood vessel at wrist and hand level,"4137,53",mensual
+840,2023-10-22,840,840,"Unsp fx head of r femr, 7thR","4894,88",trimestral
+841,2023-10-24,841,841,Sprain of sternum,"4582,05",cuatrimestral
+842,2024-02-04,842,842,"Nondisp fx of unsp tibial spin, 7thQ","4353,67",anual
+843,2023-11-28,843,843,"Fx unsp part of r clavicle, subs for fx w routn heal","4920,94",trimestral
+844,2024-04-18,844,844,"Oth physeal fx lower end of humerus, right arm, init","4305,81",anual
+845,2024-03-20,845,845,"Minor laceration of right carotid artery, subs encntr","3784,68",mensual
+846,2023-08-15,846,846,Interstitial cystitis (chronic) without hematuria,"31,87",trimestral
+847,2023-05-18,847,847,"Other fracture of lower end of right femur, sequela","4980,48",trimestral
+848,2024-01-05,848,848,"Disp fx of lateral cuneiform of l ft, subs for fx w nonunion","4024,37",mensual
+849,2024-02-10,849,849,"Effusion, right ankle","2716,60",cuatrimestral
+850,2023-05-15,850,850,"Poisoning by glucocort/synth analog, undetermined, sequela","1870,84",mensual
+851,2023-12-05,851,851,"Bitten by dog, initial encounter","4981,10",contado
+852,2024-02-17,852,852,Osteitis deformans of shoulder,"4988,14",anual
+853,2023-06-29,853,853,"Other cerv disc displacmnt, mid-cervical region, unsp level","2479,12",trimestral
+854,2023-06-14,854,854,"Supervision of elderly primigravida, second trimester","4912,21",semestral
+855,2024-03-16,855,855,"Laceration of other blood vessels of thorax, right side","2629,74",contado
+856,2023-06-27,856,856,"Fx oth skull and facial bones, unspecified side, 7thG","4108,04",contado
+857,2023-05-21,857,857,Occup of pk-up/van injured in collision w pedl cyc nontraf,"4509,88",cuatrimestral
+858,2023-06-01,858,858,Fracture of superior rim of unspecified pubis,"1279,58",mensual
+859,2023-09-08,859,859,"Other injury of celiac artery, sequela","2104,95",trimestral
+860,2023-09-28,860,860,Mechanical complication of intraocular lens,"2120,80",semestral
+861,2023-07-13,861,861,Bariatric surgery status,"1629,07",cuatrimestral
+862,2023-12-11,862,862,"Person injured in clsn betw hv veh and bus, nontraf, sequela","2491,14",cuatrimestral
+863,2024-02-25,863,863,"Unsp pedl cyclst inj in clsn w rail trn/veh in traf, init","4604,51",mensual
+864,2023-09-18,864,864,"Unspecified dislocation of right toe(s), initial encounter","112,29",anual
+865,2023-06-10,865,865,"I/I react d/t indwelling ureteral stent, subs","2088,26",semestral
+866,2024-03-08,866,866,Accidental malfunction of airgun,"1732,84",anual
+867,2023-06-13,867,867,"Type 2 diab with prolif diab rtnop with comb detach, l eye","1584,81",mensual
+868,2024-05-03,868,868,"Age-rel osteopor w current path fracture, right hand, init","1321,46",semestral
+869,2024-02-14,869,869,Recurrent pterygium of eye,"2532,25",semestral
+870,2023-10-30,870,870,Benign neoplasm of kidney,"3334,67",cuatrimestral
+871,2024-04-10,871,871,"Unsp injury of unsp wrist, hand and finger(s), init encntr","4539,03",semestral
+872,2024-04-22,872,872,"Other acute nonsuppurative otitis media, right ear","785,13",mensual
+873,2023-09-20,873,873,"Nondisp fx of shaft of fifth metacarpal bone, right hand","1407,33",anual
+874,2023-09-29,874,874,"Open bite, right elbow, sequela","450,26",trimestral
+875,2023-08-29,875,875,"Disp fx of base of third metacarpal bone, right hand","1489,10",contado
+876,2024-01-21,876,876,Hypermobility of urethra,"72,19",cuatrimestral
+877,2023-05-31,877,877,"Mech compl of implnt elec nstim of spinal cord lead, init","2939,06",cuatrimestral
+878,2023-10-28,878,878,Other sexually transmitted chlamydial diseases,"1895,35",trimestral
+879,2023-12-26,879,879,"Corrosion of third degree of left knee, sequela","4469,20",cuatrimestral
+880,2023-07-14,880,880,Fracture of unspecified phalanx of right middle finger,"2582,42",trimestral
+881,2024-03-15,881,881,"Toxic effect of gases, fumes and vapors, accidental, init","4369,14",cuatrimestral
+882,2024-03-13,882,882,"Monteggia's fx unsp ulna, subs for clos fx w nonunion","3211,63",semestral
+883,2023-12-08,883,883,"Osteochondritis dissecans, unspecified wrist","1582,85",contado
+884,2023-11-26,884,884,"Unsp superfic injury of left eyelid and perioculr area, init","4688,01",anual
+885,2023-09-06,885,885,"Burn 1st deg mult sites of right lower limb, ex ank/ft, sqla","817,98",semestral
+886,2023-07-20,886,886,"Legal intervnt w injury by rifl pelet, suspect inj, sequela","836,19",semestral
+887,2023-12-27,887,887,Other superficial bite of penis,"1574,12",contado
+888,2023-05-25,888,888,"Nondisp osteochon fx unsp patella, 7thK","604,86",trimestral
+889,2023-09-17,889,889,Acute dacryocystitis of bilateral lacrimal passages,"1825,10",semestral
+890,2023-07-03,890,890,Pneumonia due to Escherichia coli,"2168,70",mensual
+891,2023-09-07,891,891,Chondrodysplasia punctata,"3379,82",mensual
+892,2023-06-26,892,892,Osteochondritis dissecans of ankle and joints of foot,"3169,76",mensual
+893,2023-05-12,893,893,Prsn brd/alit a car injured in collision w nonmtr vehicle,"1800,85",trimestral
+894,2024-02-08,894,894,Other complications of corneal transplant,"360,36",contado
+895,2023-06-05,895,895,"Person inj wh brd/alit from special construct vehicle, subs","2700,43",cuatrimestral
+896,2024-03-10,896,896,Other specified injuries unspecified forearm,"449,63",mensual
+897,2023-05-20,897,897,Unstable burst fracture of second lumbar vertebra,"642,61",semestral
+898,2023-09-30,898,898,"Hypertrophy of bone, unspecified shoulder","1852,28",anual
+899,2023-07-07,899,899,"Inj unsp musc/fasc/tend at thigh level, left thigh, sequela","4305,91",anual
+900,2023-06-18,900,900,"Postproc hematoma of eye and adnexa fol an opth proc, bi","326,20",cuatrimestral
+901,2023-07-10,901,901,"Adverse effect of electrolytic/caloric/wtr-bal agnt, subs","2937,26",contado
+902,2023-07-17,902,902,"Unsp open wound of unspecified part of head, subs encntr","4094,95",semestral
+903,2024-02-11,903,903,Nondisp fx of lateral cuneiform of unspecified foot,"4157,11",anual
+904,2023-10-14,904,904,"Displ spiral fx shaft of r tibia, 7thK","1037,14",trimestral
+905,2024-04-30,905,905,Superficial foreign body of penis,"1723,21",mensual
+906,2024-01-05,906,906,"Corrosion of unspecified degree of lip(s), subs encntr","3600,70",anual
+907,2024-01-12,907,907,"Unsp injury of fallopian tube, unilateral, subs encntr","135,33",mensual
+908,2023-07-20,908,908,"Nondisp fx of lateral condyle of l tibia, 7thQ","4140,48",mensual
+909,2023-06-11,909,909,"Cystic meniscus, other medial meniscus, right knee","1645,61",trimestral
+910,2023-08-12,910,910,"Cataract with neovascularization, left eye","1071,40",trimestral
+911,2023-07-18,911,911,"Coma scale, best verbal response, none, EMR","1101,20",semestral
+912,2024-02-13,912,912,"Corrosion of 3rd deg mu sites of left wrist and hand, init","314,62",trimestral
+913,2023-09-15,913,913,"Chondrolysis, unspecified hip","3699,43",cuatrimestral
+914,2023-11-10,914,914,"Merkel cell carcinoma of left lower limb, including hip","852,93",semestral
+915,2024-05-05,915,915,"Displ suprcndl fx w/o intrcndl extn low end unsp femr, 7thF","1555,52",trimestral
+916,2024-02-14,916,916,"Nondisp commnt fx shaft of ulna, r arm, 7thH","2310,77",semestral
+917,2024-03-13,917,917,"Displ bicondylar fx unsp tibia, 7thQ","3914,32",contado
+918,2023-06-18,918,918,"Leakage of other vascular grafts, subsequent encounter","2257,08",contado
+919,2024-03-03,919,919,Benign paroxysmal vertigo,"4816,84",anual
+920,2023-12-10,920,920,"Monoarthritis, not elsewhere classified, left wrist","2324,92",semestral
+921,2024-03-27,921,921,"Trisomy 18, translocation","2926,05",anual
+922,2023-07-10,922,922,"Open bite of right hand, sequela","3454,16",anual
+923,2023-06-01,923,923,"Displ spiral fx shaft of r fibula, 7thN","2214,97",trimestral
+924,2023-08-04,924,924,"Unsp fx shaft of r fibula, 7thN","362,37",contado
+925,2023-10-21,925,925,"Laceration w/o fb of r mid finger w/o damage to nail, init","4791,49",anual
+926,2023-09-15,926,926,"Sprain of unsp collateral ligament of right knee, init","1773,64",mensual
+927,2023-06-05,927,927,Other disorders of branched-chain amino-acid metabolism,"2973,87",anual
+928,2023-05-14,928,928,"Terrorism involving nuclear weapons, terrorist injured, subs","1297,32",cuatrimestral
+929,2024-02-19,929,929,"Toxic effect of venom of African and Asian snake, assault","3206,84",semestral
+930,2024-02-17,930,930,Lateral subluxation of unspecified ulnohumeral joint,"1963,45",contado
+931,2024-03-31,931,931,"Bitten by other marine mammals, initial encounter","2550,70",semestral
+932,2023-09-21,932,932,Strain of flexor musc/fasc/tend finger at wrs/hnd lv,"2630,69",trimestral
+933,2024-01-23,933,933,"Drug/chem diab w prolif diab rtnop w trctn dtch macula, bi","4379,29",contado
+934,2024-03-11,934,934,Unsp degenerative disorders of eyelid and periocular area,"4036,04",cuatrimestral
+935,2023-11-30,935,935,Acquired absence of breast and nipple,"3074,29",semestral
+936,2023-11-20,936,936,"Traum hemor cereb, w LOC >24 hr w ret consc lev, sequela","4192,15",trimestral
+937,2023-05-16,937,937,"Adverse effect of other systemic antibiotics, init encntr","2235,68",contado
+938,2024-01-31,938,938,"Driver of 3-whl mv inj in clsn w rail trn/veh in traf, init","1569,38",mensual
+939,2024-04-13,939,939,"Corrosion of second degree of right ankle and foot, init","3622,49",mensual
+940,2023-08-28,940,940,"Lacerat great saphenous at lower leg level, unsp leg, subs","4066,88",contado
+941,2024-04-15,941,941,Actinic granuloma,"484,67",mensual
+942,2024-03-23,942,942,Bedroom in nursing home as place,"4720,56",cuatrimestral
+943,2024-04-13,943,943,"Disp fx of unsp tibial tuberosity, 7thR","4619,80",contado
+944,2024-02-15,944,944,"Chronic postrheumatic arthropathy [Jaccoud], right shoulder","282,61",contado
+945,2023-07-16,945,945,Traumatic amputation at shoulder joint,"323,43",contado
+946,2024-04-22,946,946,"Poisn by unsp agents aff the cardiovasc sys, self-harm, init","1715,50",trimestral
+947,2024-04-09,947,947,"Poisn by selective serotonin reuptake inhibtr, acc, sequela","4186,47",contado
+948,2023-06-24,948,948,"Corrosion of second degree of left axilla, initial encounter","1260,39",trimestral
+949,2023-06-29,949,949,"Disp fx of post wall of right acetab, subs for fx w nonunion","4289,45",mensual
+950,2024-01-20,950,950,"Toxic eff of fluorine gas and hydrogen fluoride, asslt, subs","4202,49",mensual
+951,2024-02-17,951,951,"Burn of first deg mult sites of right wrs/hnd, sequela","891,27",cuatrimestral
+952,2023-08-09,952,952,"Nondisp transcondy fx unsp humerus, subs for fx w nonunion","389,69",mensual
+953,2023-06-25,953,953,Fracture of other and unspecified metacarpal bone,"912,76",cuatrimestral
+954,2024-02-28,954,954,"Anterior dislocation of left ulnohumeral joint, init encntr","3623,75",semestral
+955,2023-10-18,955,955,"Fx oth prt scapula, r shoulder, subs for fx w delay heal","2598,65",semestral
+956,2024-04-11,956,956,"Dislocation of T5/T6 thoracic vertebra, initial encounter","2478,50",anual
+957,2023-08-15,957,957,"Nondisp fx of prox phalanx of r thm, subs for fx w malunion","842,07",trimestral
+958,2023-08-26,958,958,"Unsp fx fourth MC bone, left hand, subs for fx w nonunion","2167,71",semestral
+959,2023-09-21,959,959,"Poisn by oth agents aff the cardiovasc sys, acc, sequela","2063,34",contado
+960,2023-08-06,960,960,"Osteonecrosis due to drugs, unspecified ankle","2806,07",contado
+961,2023-12-28,961,961,"Strain flexor musc/fasc/tend l mid fngr at wrs/hnd lv, subs","1811,61",contado
+962,2024-02-18,962,962,"Fb in oth and multiple parts of external eye, r eye, subs","539,75",cuatrimestral
+963,2023-09-04,963,963,Other rheumatic mitral valve diseases,"3713,35",semestral
+964,2023-10-18,964,964,"Fracture of alveolus of maxilla, subs for fx w delay heal","2712,82",contado
+965,2023-05-27,965,965,Other and unspecified ovrexrtn or strnous move/pstr,"2455,16",mensual
+966,2023-08-30,966,966,"Osteolysis, unspecified hand","810,01",semestral
+967,2023-11-15,967,967,"Oth fracture of first metacarpal bone, left hand, init","2091,97",trimestral
+968,2023-07-26,968,968,Fall into swimming pool striking wall,"203,59",mensual
+969,2024-03-13,969,969,"Other marginal perforations of tympanic membrane, right ear","250,37",cuatrimestral
+970,2023-06-26,970,970,Toxic effect of smoke,"130,45",semestral
+971,2024-01-24,971,971,"Unspecified sprain of right shoulder joint, init encntr","2749,45",anual
+972,2024-01-10,972,972,Fibrosis due to cardiac prosth dev/grft,"861,69",contado
+973,2023-10-21,973,973,"Displaced fracture of head of left radius, sequela","3439,47",contado
+974,2023-11-01,974,974,Presence of other orthopedic joint implants,"1349,28",contado
+975,2023-10-09,975,975,Cerebral infrc due to unsp occls or stenosis of bi ant art,"4091,28",trimestral
+976,2023-07-10,976,976,"Inj left innominate or subclavian vein, subs encntr","2179,91",trimestral
+977,2024-03-18,977,977,"Osteopathy in diseases classified elsewhere, unsp forearm","1557,27",cuatrimestral
+978,2024-03-28,978,978,Fall into well,"4265,26",contado
+979,2024-05-07,979,979,Unspecified injury of lower back,"1308,60",contado
+980,2024-01-08,980,980,"Superficial foreign body of unsp parts of thorax, sequela","2289,02",contado
+981,2023-10-09,981,981,Adverse effect of other psychostimulants,"2938,48",mensual
+982,2023-08-23,982,982,"Nondisp transverse fx shaft of l fibula, 7thD","4601,80",cuatrimestral
+983,2023-07-15,983,983,"Disp fx of lateral cuneiform of unsp ft, 7thD","2568,21",cuatrimestral
+984,2023-12-22,984,984,"Toxic effect of fiberglass, assault, subsequent encounter","1755,98",contado
+985,2023-11-29,985,985,"Toxic effect of rattlesnake venom, accidental, subs","1016,11",anual
+986,2023-11-27,986,986,"Pnctr w foreign body of r rng fngr w/o damage to nail, init","109,28",cuatrimestral
+987,2024-02-23,987,987,"Monteggia's fx left ulna, subs for clos fx w routn heal","3666,64",trimestral
+988,2024-03-04,988,988,"Nondisp fx of lateral condyle of left femur, sequela","493,68",trimestral
+989,2023-09-14,989,989,Post-traumatic osteoarthritis of other joints,"1551,03",cuatrimestral
+990,2023-11-25,990,990,"Trochanteric bursitis, unspecified hip","4364,63",anual
+991,2023-06-12,991,991,"Other calcification of muscle, unspecified hand","1432,22",cuatrimestral
+992,2023-08-02,992,992,Monocytic leukemia,"1981,36",trimestral
+993,2023-12-27,993,993,Unspecified injury of diaphragm,"2883,58",mensual
+994,2023-08-23,994,994,"Obstructed labor due to breech presentation, fetus 4","3037,68",mensual
+995,2024-03-07,995,995,Personal history of pneumonia (recurrent),"3621,97",anual
+996,2024-03-12,996,996,"Unsp fx shaft of unsp tibia, 7thE","1436,61",cuatrimestral
+997,2023-11-23,997,997,"Androgenic alopecia, unspecified","3905,09",mensual
+998,2023-12-21,998,998,"Unspecified contact dermatitis, unspecified cause","2473,42",cuatrimestral
+999,2023-12-24,999,999,"Nondisp segmental fx shaft of humerus, right arm, sequela","1456,33",mensual
+1000,2023-10-02,1000,1000,"Toxic effect of oth inorganic substances, assault","1709,49",contado

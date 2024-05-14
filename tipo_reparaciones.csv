@@ -1,0 +1,11 @@
+id_tipo_reparacion,nombre,descripcion
+1,chasis,Ajustamiento de chasis tras golpe o imperfección
+2,aceites,Cambio de aceites
+3,neumáticos,Cambio de neumáticos
+4,batería,Cambio de batería
+5,motor,Reparación de cualquier parte del motor
+6,embrague,Análisis y/o cambio de embrague
+7,carroceria,Detalles de chapa y pintura y masilla
+8,interior,Limpeza o reparaciones del interior del coche
+9,frenos,Cambio de discos de frenos y/o pastillas
+10,manguitos,Análisis de manguitos completo
