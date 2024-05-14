@@ -1,5 +1,5 @@
 
-use tallercoches_dgm:
+USE tallercoches_dgm:
 
 -- CONSULTAS --------------------------------------------------------------------------------------------------------------
 
@@ -79,10 +79,9 @@ create view vista_reparaciones_empleado as
 select r.id_reparacion, r.fecha, r.descripcion, e.nombre as nombre_empleado
 from reparaciones r
 inner join empleados e on r.id_empleado = e.id_empleado
-where e.nombre = 'nombre del empleado';
+where e.nombre = 'Lew';
 
 select * from vista_reparaciones_empleado;
-
 
 
 
@@ -92,29 +91,37 @@ select * from vista_reparaciones_empleado;
 
 -- 1. Función que calcula el importe total de una reparación:
 
-drop function if exists calcularImporteTotalReparacion;
-DELIMITER &&
-create function calcularImporteTotalReparacion(reparacion_id int) returns decimal(10,2)
+DROP FUNCTION IF EXISTS calcularImporteTotalReparacion;
+
+CREATE FUNCTION calcularImporteTotalReparacion(reparacion_id INT) RETURNS DECIMAL(10,2)
+DETERMINISTIC
 BEGIN
-    declare total decimal(10,2);
-    select sum(importe_total) into total from reparaciones where id_reparacion = reparacion_id;
-    return total;
-end &&
-DELIMITER ;
+    DECLARE total DECIMAL(10,2);
+    SELECT SUM(importe_total) INTO total FROM reparaciones WHERE id_reparacion = reparacion_id;
+    RETURN total;
+END;
+
+SELECT calcularImporteTotalReparacion(1);
+
 
 
 -- 2. Función para contar el número de reparaciones de un empleado:
 
+USE tallercoches_dgm;
+
 drop function if exists contarReparacionesEmpleado;
-DELIMITER &&
-create function contarReparacionesEmpleado(empleado_id int) returns int
+
+DELIMITER $$
+create function contarReparacionesEmpleado(empleado_id int) returns int 
+DETERMINISTIC
 BEGIN
     declare num_reparaciones int;
     select count(*) into num_reparaciones from reparaciones where id_empleado = empleado_id;
     return num_reparaciones;
-END &&
+END$$
 DELIMITER ;
 
+select contarReparacionesEmpleado(2);
 
 
 
@@ -133,6 +140,7 @@ BEGIN
 END &&
 DELIMITER ;
 
+call registrarPago(1, 1, 100.00, '2024-05-14');
 
 -- 2. Procedimiento para marcar una reparación como pagada:
 
@@ -144,30 +152,49 @@ BEGIN
 END &&
 DELIMITER ;
 
+call marcarReparacionPagada(1);
 
 -- 3. Procedimiento que utiliza un cursor para mostrar las reparaciones pendientes de pago:
 
 drop procedure if exists mostrarReparacionesPendientesPago;
-DELIMITER &&
+
+DELIMITER $$
 create procedure mostrarReparacionesPendientesPago()
 BEGIN
-    declare done int default false;
+    declare contador int default 0;
+    declare total_registros int;
     declare reparacion_id int;
-    declare cur cursor for select id_reparacion from reparaciones where id_reparacion not in (select id_reparacion from pago where estado_pago_total = 'pagado');
-    declare continue handler for not found set done = true;
+    declare descripcion_reparacion varchar(255);
 
-    open cur;
-    read_loop: loop
-        fetch cur into reparacion_id;
-        if done then
-            leave read_loop;
-        end if;
-        select * from reparaciones where id_reparacion = reparacion_id;
-    end loop;
-    close cur;
-END &&
+    select count(*) into total_registros 
+    from reparaciones 
+    where id_reparacion not in (select id_reparacion from pago where estado_pago_total = 'pagado');
+
+    create temporary table if not exists temp_reparaciones (
+        id_reparacion int,
+        descripcion varchar(255)
+    );
+
+    while contador < total_registros do
+        select id_reparacion, descripcion 
+        into reparacion_id, descripcion_reparacion
+        from reparaciones 
+        where id_reparacion not in (select id_reparacion from pago where estado_pago_total = 'pagado')
+        limit contador, 1;
+
+        insert into temp_reparaciones (id_reparacion, descripcion) 
+        values (reparacion_id, descripcion_reparacion);
+
+        set contador = contador + 1;
+    end while;
+
+    select * from temp_reparaciones;
+
+    drop temporary table if exists temp_reparaciones;
+END$$
 DELIMITER ;
 
+call mostrarReparacionesPendientesPago();
 
 
 
@@ -179,55 +206,105 @@ DELIMITER ;
 --    debe pagar el cliente mensualmente. Si el plazo de pago es diferente de mensual, calcula el importe de pago en función de ese plazo (trimestral, cuatrimestral, semestral o anual). 
 --    Si el plazo no está especificado o es desconocido, asume que el pago es mensual.
 
-drop trigger if exists calcular_importe_pago_mensual;
-DELIMITER &&
-create trigger calcular_importe_pago_mensual
-before insert on pago
-for each row
-begin
-    declare importe_total decimal(10, 2);
-    if new.id_reparacion is not null then
-        select costo into importe_total from reparaciones where id_reparacion = new.id_reparacion;
-        if new.plazo_pagos = 'mensual' then
-            set new.importe_pago = importe_total;
-        elseif new.plazo_pagos = 'trimestral' then
-            set new.importe_pago = importe_total / 3;
-        elseif new.plazo_pagos = 'cuatrimestral' then
-            set new.importe_pago = importe_total / 4;
-        elseif new.plazo_pagos = 'semestral' then
-            set new.importe_pago = importe_total / 6;
-        elseif new.plazo_pagos = 'anual' then
-            set new.importe_pago = importe_total / 12;
-        else
-            set new.importe_pago = importe_total;
-        end if;
-    end if;
-end&&
+DROP TRIGGER IF EXISTS calcular_importe_pago_mensual;
+DELIMITER $$
+CREATE TRIGGER calcular_importe_pago_mensual
+BEFORE INSERT ON pago
+FOR EACH ROW
+BEGIN
+    DECLARE importe_total DECIMAL(10, 2);
+
+    IF NEW.id_reparacion IS NOT NULL THEN
+        -- Seleccionar el plazo de pagos de la tabla reparaciones
+        SELECT plazo_pagos, importe_total INTO @plazo_pagos, importe_total FROM reparaciones WHERE id_reparacion = NEW.id_reparacion;
+
+        -- Calcular el importe de pago basado en el plazo de pagos
+        CASE @plazo_pagos
+            WHEN 'trimestral' THEN SET NEW.importe_pago = importe_total / 3;
+            WHEN 'cuatrimestral' THEN SET NEW.importe_pago = importe_total / 4;
+            WHEN 'semestral' THEN SET NEW.importe_pago = importe_total / 6;
+            WHEN 'anual' THEN SET NEW.importe_pago = importe_total / 12;
+            ELSE SET NEW.importe_pago = importe_total; -- Por defecto, asume plazo de pagos mensual
+        END CASE;
+    END IF;
+END$$
 DELIMITER ;
 
 
--- Este trigger se activará después de insertar un nuevo registro en la tabla pago. Calcula el importe total pagado para la reparación correspondiente y el importe total de la reparación desde 
--- la tabla reparaciones. Luego, actualiza el campo estado_pago_total en la tabla pago basado en si el total pagado es igual o mayor al importe total de la reparación.
+INSERT INTO reparaciones (id_reparacion, plazo_pagos, importe_total) VALUES
+(1001, 'mensual', 100),
+(1002, 'trimestral', 300),
+(1003, 'semestral', 600);
 
-DELIMITER //
 
+-- Esto activará el trigger y calculará los importes de pago según el plazo de pagos de las reparaciones
+INSERT INTO pago (id_reparacion) VALUES (1001), (1002), (1003);
+
+SELECT * FROM pago;
+
+
+
+-- 2. Este trigger se activará después de insertar un nuevo registro en la tabla pago. Calcula el importe total pagado para la reparación correspondiente y el importe total de la reparación desde 
+--    la tabla reparaciones. Luego, actualiza el campo estado_pago_total en la tabla pago basado en si el total pagado es igual o mayor al importe total de la reparación.
+
+DROP TRIGGER IF EXISTS actualizar_estado_pago;
+
+DELIMITER $$
 CREATE TRIGGER actualizar_estado_pago AFTER INSERT ON pago FOR EACH ROW
 BEGIN
     DECLARE total_pagado DECIMAL(10,2);
     DECLARE total_reparacion DECIMAL(10,2);
+    DECLARE estado_pago VARCHAR(10);
     
+    -- Crear tabla temporal para calcular el estado de pago
+    CREATE TEMPORARY TABLE IF NOT EXISTS temp_pago (
+        id_reparacion INT,
+        total_pagado DECIMAL(10,2),
+        total_reparacion DECIMAL(10,2),
+        estado_pago VARCHAR(10)
+    );
+
     -- Obtener el importe total pagado para la reparación correspondiente
     SELECT SUM(importe_pago) INTO total_pagado FROM pago WHERE id_reparacion = NEW.id_reparacion;
     
     -- Obtener el importe total de la reparación
     SELECT importe_total INTO total_reparacion FROM reparaciones WHERE id_reparacion = NEW.id_reparacion;
     
-    -- Actualizar el campo estado_pago_total en la tabla pago
+    -- Definir el estado de pago
     IF total_pagado >= total_reparacion THEN
-        UPDATE pago SET estado_pago_total = 'pagado' WHERE id_reparacion = NEW.id_reparacion;
+        SET estado_pago = 'pagado';
     ELSE
-        UPDATE pago SET estado_pago_total = 'pendiente' WHERE id_reparacion = NEW.id_reparacion;
+        SET estado_pago = 'pendiente';
     END IF;
-END //
+
+    -- Insertar datos en la tabla temporal
+    INSERT INTO temp_pago VALUES (NEW.id_reparacion, total_pagado, total_reparacion, estado_pago);
+END$$
+-- No se puede actualizar la tabla pago dentro de un trigger porque ya está siendo utilizada por la misma operación que activa el trigger.
+-- Una forma de abordar este problema es utilizando una tabla temporal para calcular el estado de pago y luego actualizar la tabla pago fuera del trigger.
+CREATE PROCEDURE actualizar_estado_pago()
+BEGIN
+    -- Actualizar el campo estado_pago_total en la tabla pago
+    UPDATE pago p
+    JOIN temp_pago tp ON p.id_reparacion = tp.id_reparacion
+    SET p.estado_pago_total = tp.estado_pago;
+    
+    -- Eliminar la tabla temporal
+    DROP TEMPORARY TABLE IF EXISTS temp_pago;
+
+    -- Sentencia final para evitar el error de sintaxis
+    SELECT 'Tabla temporal eliminada correctamente';
+END$$
 
 DELIMITER ;
+
+INSERT INTO pago (id_reparacion, importe_pago, fecha_pago, estado_pago_total) VALUES (1, 100.00, '2024-05-14', 'pendiente');
+
+-- Verificar la tabla temporal (temp_pago)
+SELECT * FROM temp_pago;
+
+-- Si es necesario, puedes ejecutar el procedimiento almacenado manualmente
+CALL actualizar_estado_pago();
+
+-- Verificar nuevamente la tabla pago para ver si los cambios se reflejaron correctamente
+SELECT * FROM pago WHERE id_reparacion = 1;
